@@ -79,13 +79,15 @@ require_once 'bd/conectarBd.php';
         <h3>Conhecer dicas de aprimoramento<br>
         pessoal me trouxe confiança e agora<br> 
         é mais fácil me apresentar publicamente</h3> 
-        <div class="row" style="margin-top: 300px;">
+        <div class="row" style="margin-top: 300px;text-align: center;">
+            <h5>QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
+            <h3>Cadastre-se e não perca nenhum de nossos conteúdos</h3>
           <div class="col-md-4 col-md-offset-3">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Nome">
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-5">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="email">
               <span class="input-group-btn">

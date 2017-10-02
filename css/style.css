@@ -56,6 +56,12 @@
     min-width: 100%;
 }
 
+h5, h3{
+
+    color: white;
+    font-weight: 700;
+}
+
 form{
     margin-top: 700px;
 }
