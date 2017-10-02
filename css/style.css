@@ -32,6 +32,10 @@
     transition: background-color 0.9s ease;
 }*/
 
+body{
+    width: 100%;
+}
+
 /*Banner Principal*/
 
 .navbar-brand>img {
@@ -47,7 +51,6 @@
     -moz-background-size: 100% 100%;
     /*-webkit-background-size: 100% 100%;*/
     background-size: 100% 100%;
-    min-height: 600px;
     width: 100%;
 }
 
@@ -104,9 +107,6 @@ h5, h3{
     font-weight: 200;
     float: right;
     color: white;
-}
-.col-md-4 {
-    margin-right: -150px;
 }
 .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
     z-index: 2;

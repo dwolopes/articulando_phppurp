@@ -77,8 +77,8 @@ require_once 'conectarBd.php';
         </div>
     </nav>
 </header>
-<div class="jumbotron">
-    <div class="container-fluid">
+<div class="jumbotron" style="border: 2px solid black;">
+    <div class="container">
         <div class="row">
             <div class="col-md-5" style="margin-top: 100px;">
                 <h3 style="font-family:">Conhecer <b>dicas de aprimoramento</b>
