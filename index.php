@@ -8,6 +8,15 @@ require_once 'conectarBd.php';
 <!DOCTYPE html>
 <html>
 <head>
+     <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107394088-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107394088-1');
+    </script>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,18 +34,20 @@ require_once 'conectarBd.php';
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="fonts/Bariol.ttf" rel="stylesheet">
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
     <script src="js/style.js"></script> <!-- load our javascript file -->
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: -20px;">
+    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: -20px; min-height: 70px;">
         <div class="container">
             <div class="navbar-header">
 
                 <!-- Collapsed Hamburger -->
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
                     <span class="sr-only">Toggle Navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -44,35 +55,24 @@ require_once 'conectarBd.php';
                 </button>
 
                 <!-- Branding Image -->
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand" href="index.php">
+                    <img src="img/articulei_logo.png" class="img-responsive" width="60">
                 </a>
             </div>
 
-            <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <div class="collapse navbar-collapse" id="menu">
                 <!-- Left Side Of Navbar -->
                 <!-- Right Side Of Navbar -->
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul class="nav navbar-nav">
-                            &nbsp;
-                            &nbsp;
-                            &nbsp;
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="nav navbar-nav">
-                            <li class="active">
+                    <ul class="nav navbar-nav navbar-right" style="margin-right: 100px;">
+                        <ul class="nav navbar-nav" style="margin-top: 20px;">
+<!--                             <li class="active">
                                 <a href="#"><span>Saiba Mais</span></a>
-                            </li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Sobre</a></li>
-                            <li><a href="#">Contato</a></li>
+                            </li> -->
+                            <li class="active"><a href="#">HOME</a></li>
+                            <li><a href="#">SOBRE</a></li>
+                            <li><a href="#">CONTATO</a></li>
                         </ul>
-                    </div>
-                </div>
-                <ul class="nav navbar-nav navbar-right">
-                    <!-- Authentication Links -->
-                </ul>
+                    </ul>
             </div>
         </div>
     </nav>
@@ -80,11 +80,14 @@ require_once 'conectarBd.php';
 <div class="jumbotron">
     <div class="container-fluid">
         <div class="row">
-            <h3>Conhecer dicas de aprimoramento<br>
-            pessoal me trouxe confiança e agora<br> 
-            é mais fácil me apresentar publicamente</h3>
-            <div class="col-md-6 col-md-offset-6">
-                <img src="img/efeito-marca.png" class="img-responsive">
+            <div class="col-md-5" style="margin-top: 100px;">
+                <h3 style="font-family:">Conhecer <b>dicas de aprimoramento</b>
+                pessoal me trouxe <b>confiança</b> e agora
+                é mais fácil me apresentar publicamente</h3>
+                <p id="p_capa">Biana Kiestn</p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/efeito-marca.png" class="img-responsive" width="1000">
             </div>
         </div>
             <div class="row" style="margin-top: 20px;text-align: center; background-color: black; min-height:130px; opacity: 0.6">
@@ -106,7 +109,9 @@ require_once 'conectarBd.php';
                     </div>
                 </form>
             </div>
+           <div id="obrigado"></div>
     </div>
 </div>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

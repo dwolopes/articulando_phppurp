@@ -25,7 +25,11 @@ $(document).ready(function() {
                 alert("Retornei");
 
                 // log data to the console so we can see
-                console.log(data); 
+                console.log(data);
+
+                if(data.success == true){
+                    $("#obrigado").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/></center>");
+                } 
 
                 // here we will handle errors and validation messages
             });

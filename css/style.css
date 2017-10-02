@@ -34,6 +34,12 @@
 
 /*Banner Principal*/
 
+.navbar-brand>img {
+    margin-top: -10px;
+    display: block;
+    margin-left: 70px;
+}
+
 .jumbotron{
     margin-top:-22px;
     background-image: url('../img/articulando_banner.png');
@@ -41,7 +47,7 @@
     -moz-background-size: 100% 100%;
     /*-webkit-background-size: 100% 100%;*/
     background-size: 100% 100%;
-    height: 600px;
+    min-height: 600px;
     width: 100%;
 }
 
@@ -56,10 +62,48 @@
     min-width: 100%;
 }
 
-h5, h3{
-
-    color: white;
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: medium;
     font-weight: 700;
+    margin-right: 80px;
+}
+
+.navbar-default .navbar-nav>.active>a{
+    border-bottom: 3px solid #006c62;
+    background-color: transparent;
+    padding-bottom: -20px;
+    margin-bottom: 10px;
+}
+
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+}
+
+
+h5, h3{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #3a8178;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+    float: right;
+    color: white;
 }
 .col-md-4 {
     margin-right: -150px;
