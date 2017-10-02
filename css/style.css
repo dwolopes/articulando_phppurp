@@ -1,0 +1,160 @@
+#logo{
+    margin-top: -10px;
+}
+
+.navbar-default{
+    min-height:90px;
+}
+
+.navbar-nav{
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: #006c62;
+    font-weight: 900;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #006c62;
+}
+
+.navbar-default .navbar-nav>.active>a{
+    color: white;
+    background-color: #006c62;
+    opacity: 0.8;
+    padding-bottom:35px;
+    padding-top:30px;
+    margin-top: -18px;
+}
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    transition: background-color 0.9s ease;
+}
+
+/*Banner Principal*/
+
+.jumbotron{
+    margin-top: -22px;
+    background-image: url('../img/articulando_banner.png');
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%;
+    /*-webkit-background-size: 100% 100%;*/
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.jumbotron>.row{
+    margin-top: 250px;
+    background-color: none;
+    text-align: center;
+}
+
+.jumbotron>.row>.col-md-12{
+    min-height: 150px;
+    min-width: 100%;
+}
+
+form{
+    margin-top: 80px;
+}
+
+.form-control {
+    width: 100%;
+    height: 36px;
+    padding: 6px 12px;
+    background-color: white;
+    border: 1px solid #ccd0d2;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle){
+    width: 200px;
+}
+
+h3{
+    margin-left: 100px;
+    color: white;
+}
+
+#postagens{
+    background: white;
+    padding-top: 20px;
+}
+
+/*Rodapé*/
+footer{
+    background-color:#006c62;
+    padding: 30px 0px;
+    min-height: 120px;
+}
+
+footer ul{
+    list-style:none;
+    margin:0 auto;
+    display:inline-block;
+    padding-top:50px;
+}
+
+
+footer ul li{
+    float:left;
+}
+
+footer ul li a{
+    color:#b1aca1;
+    margin-top: -15px;
+}
+
+footer ul li a:hover{
+    color:#7dabdb;
+    text-decoration:none;
+}
+
+.footer-top{
+    padding-bottom:30px;
+}
+
+.footer-top .fa{
+    font-size:18px;
+    color: #FFF;
+    padding-right:10px;
+    padding-top: 10px;
+}
+
+.footer-top a{
+    color:#FFF;
+    text-decoration:none;
+}
+
+.footer-top .col-lg-4:hover .fa , .footer-top .col-lg-4:hover a{
+    color:#7dabdb;
+}
+
+.home {
+    border-top:1px solid grey;
+    padding-top: 10px;
+
+}
+
+.home:hover a {
+    color:#7dabdb;
+}
+.redes .text-center{
+
+    padding-bottom: 10px; 
+}
+
+.copyright{
+    color: black;
+    font-weight: 300;
+    background-color:#006c62;
+}
+
+.copyright p{
+    font-size:12px;
+    padding:5px 0 0 0;
+}
