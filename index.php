@@ -1,6 +1,6 @@
 <?php
 
-require_once 'bd/conectarBd.php';
+require_once 'conectarBd.php';
 
 ?>
 
@@ -25,6 +25,9 @@ require_once 'bd/conectarBd.php';
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
+    <script src="js/style.js"></script> <!-- load our javascript file -->
 </head>
 <body>
     <header>
@@ -75,29 +78,35 @@ require_once 'bd/conectarBd.php';
     </nav>
 </header>
 <div class="jumbotron">
-    <div class="container">
-        <h3>Conhecer dicas de aprimoramento<br>
-        pessoal me trouxe confiança e agora<br> 
-        é mais fácil me apresentar publicamente</h3> 
-        <div class="row" style="margin-top: 300px;text-align: center;">
-            <h5>QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
-            <h3>Cadastre-se e não perca nenhum de nossos conteúdos</h3>
-          <div class="col-md-4 col-md-offset-3">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Nome">
+    <div class="container-fluid">
+        <div class="row">
+            <h3>Conhecer dicas de aprimoramento<br>
+            pessoal me trouxe confiança e agora<br> 
+            é mais fácil me apresentar publicamente</h3>
+            <div class="col-md-6 col-md-offset-6">
+                <img src="img/efeito-marca.png" class="img-responsive">
             </div>
-          </div>
-          <div class="col-md-5">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="email">
-              <span class="input-group-btn">
-                <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;">Enviar</button>
-              </span>
-            </div>
-          </div>
         </div>
+            <div class="row" style="margin-top: 20px;text-align: center; background-color: black; min-height:130px; opacity: 0.6">
+                <h5>QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
+                <h3>Cadastre-se e não perca nenhum de nossos conteúdos</h3>
+                <form action="armazenamento.php" method="POST">
+                    <div class="col-md-4 col-md-offset-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="nome" placeholder="Nome">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="email" placeholder="email">
+                            <span class="input-group-btn">
+                                <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;">Enviar</button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
     </div>
-    </div>
-
+</div>
 </body>
 </html>
