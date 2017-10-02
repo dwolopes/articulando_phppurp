@@ -28,7 +28,7 @@ require_once 'bd/conectarBd.php';
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-default navbar-static-top">
+    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: -20px;">
         <div class="container">
             <div class="navbar-header">
 
@@ -75,27 +75,27 @@ require_once 'bd/conectarBd.php';
     </nav>
 </header>
 <div class="jumbotron">
-    <h3>Conhecer dicas de aprimoramento<br>
-    pessoal me trouxe confiança e agora<br> 
-    é mais fácil me apresentar publicamente</h3> 
-    <div class="row">
-        <div class="col-md-12">
-            <form class="form-inline">
-                <div class="form-group">
-                    <input type="text" class="form-control" name="nome" id="nome" placeholder="Seu nome">
-                </div>
-                <div class="form-group input-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Seu endereço de e-mail">
-                    <div class="input-group-btn">
-                        <button class="btn btn-default btn-submit" type="submit">
-                            Enviar
-                        </button>
-                    </div>
-                </div>
-            </form>
+    <div class="container">
+        <h3>Conhecer dicas de aprimoramento<br>
+        pessoal me trouxe confiança e agora<br> 
+        é mais fácil me apresentar publicamente</h3> 
+        <div class="row" style="margin-top: 300px;">
+          <div class="col-md-4 col-md-offset-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Nome">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="email">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;">Enviar</button>
+              </span>
+            </div>
+          </div>
         </div>
     </div>
-</div>
+    </div>
 
 </body>
 </html>
