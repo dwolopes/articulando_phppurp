@@ -22,7 +22,7 @@ require_once 'conectarBd.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Blog articulando">
     <link rel="icon" type="image/x-icon" href="img/icon.png">
-	<title>Blog articulando</title>
+	<title>Blog Articulei</title>
 
 	<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@ require_once 'conectarBd.php';
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: -20px; min-height: 70px;">
+    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: -20px; min-height:82px;">
         <div class="container">
             <div class="navbar-header">
 
