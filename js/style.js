@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     // process the form
     $('form').submit(function(event) {
-        alert("Você tentou submeter o formulário");
+        //alert("Você tentou submeter o formulário");
 
         // get the form data
         // there are many ways to get this data using jQuery (you can use the class or id also)
@@ -22,7 +22,7 @@ $(document).ready(function() {
             // using the done promise callback
             .done(function(data) {
 
-                alert("Retornei");
+                //alert("Retornei");
 
                 // log data to the console so we can see
                 console.log(data);
