@@ -1,6 +1,6 @@
 <?php
 
-require_once 'conectarBd.php';
+require_once 'bd/conectarBd.php';
 
 ?>
 
