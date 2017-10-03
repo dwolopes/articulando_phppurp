@@ -1,6 +1,6 @@
 <?php
 
-require_once 'conectarBd.php';
+//require_once 'conectarBd.php';
 
 ?>
 
@@ -10,6 +10,23 @@ require_once 'conectarBd.php';
 <head>
      <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107394088-1"></script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '323209771475770');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=323209771475770&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments)};
@@ -22,7 +39,7 @@ require_once 'conectarBd.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Blog articulando">
     <link rel="icon" type="image/x-icon" href="img/icon.png">
-	<title>Blog articulando</title>
+	<title>Blog Articulei</title>
 
 	<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +59,7 @@ require_once 'conectarBd.php';
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: -20px; min-height: 70px;">
+    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: -20px; min-height:82px;">
         <div class="container">
             <div class="navbar-header">
 
@@ -77,8 +94,8 @@ require_once 'conectarBd.php';
         </div>
     </nav>
 </header>
-<div class="jumbotron">
-    <div class="container-fluid">
+<div class="jumbotron" style="border: 2px solid black;">
+    <div class="container">
         <div class="row">
             <div class="col-md-5" style="margin-top: 100px;">
                 <h3 style="font-family:">Conhecer <b>dicas de aprimoramento</b>
