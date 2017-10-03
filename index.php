@@ -113,7 +113,7 @@
                 <form action="armazenamento.php" method="POST">
                     <div class="col-md-4 col-md-offset-3">
                         <div class="input-group">
-                            <input type="text" class="form-control" name="nome" placeholder="Nome">
+                            <input type="text" class="form-control" name="nome" placeholder="Nome e sobrenome">
                         </div>
                     </div>
                     <div class="col-md-5">
