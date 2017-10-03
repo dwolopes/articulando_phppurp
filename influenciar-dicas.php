@@ -110,7 +110,7 @@
             <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
             <form action="armazenamento.php" method="POST">
                  <div class="col-md-4 col-md-offset-3">
-                    <input type="text" class="input-group form-control " placeholder="Nome" id="nome">
+                    <input type="text" class="input-group form-control " placeholder="Nome Completo" id="nome">
                     <div class="input-group">
                       <input type="email" class="input-group form-control" placeholder="Endereço de email">
                       <span class="input-group-btn">
@@ -118,7 +118,8 @@
                       </span>
                     </div>
                   </div>
-                </form>
+              </form>
+              <div id="obrigado"></div>
             </div>
           </div>         
        </div>     

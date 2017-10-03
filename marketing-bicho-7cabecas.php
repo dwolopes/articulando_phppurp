@@ -31,9 +31,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">SOBRE</a></li>
-              <li><a href="#">CONTATO</a></li>
+              <li><a href="index.php">HOME</a></li>
+              <li><a href="index.php">SOBRE</a></li>
+              <li><a href="index.php">CONTATO</a></li>
           </ul>
         </div>
       </div>
@@ -144,7 +144,7 @@
             <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
             <form action="armazenamento.php" method="POST">
               <form id="search-form" class="form-group form-horizontal  col-lg-12 col-md-12   col-sm-3 col-xs-4 text-center">
-                    <input type="text" class="input-group " placeholder="Nome" id="nome">
+                    <input type="text" class="input-group " placeholder="Nome Completo" id="nome">
                     <div class="input-group">
                       <input type="email" class="input-group" placeholder="Endereço de email">
                       <span class="input-group-btn">
@@ -153,6 +153,7 @@
                     </div>
               </form>
             </form>
+            <div id="obrigado"></div>
           </div>
         </div>         
       </div>     
