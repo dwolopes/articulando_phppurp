@@ -10,6 +10,14 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">   
     
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107394088-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107394088-1');
+    </script>
 
 	<link rel="stylesheet" type="text/css" href="post1.css">
 </head>
@@ -106,7 +114,7 @@
            <div class="form-inline">
             <h5>Quer adquirir cada vez mais conhecimento?</h5>
                <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
-                <form id="search-form" class="form-search form-horizontal  col-lg-12 col-md-12 col-sm-3 col-xs-4 text-center">
+                <form  action="armazenamento.php" method="POST" id="search-form" class="form-search form-horizontal  col-lg-12 col-md-12 col-sm-3 col-xs-4 text-center">
                     <input type="text" class="input-search " placeholder="Nome" id="nome">
                         <div class="input-group">
                           <input type="email" class="input-search" placeholder="Endereço de email">
