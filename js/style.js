@@ -29,10 +29,7 @@ $(document).ready(function() {
 
                 if(data.success == true){
                     $("#obrigado").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/></center>");
-                }else{
-                    alert("Preencha todos os campos :)");
-                } 
-
+                }
                 // here we will handle errors and validation messages
             });
 
