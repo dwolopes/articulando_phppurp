@@ -70,7 +70,7 @@
 <header>
 
 
-    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: -20px; min-height: 70px;">
+    <nav class="navbar navbar-default navbar-static-top" style="min-height: 70px;">
         <div class="container">
             <div class="navbar-header">
 
@@ -106,7 +106,7 @@
     </nav>
 
 </header>
-<div class="jumbotron" style="border: 2px solid black;">
+<div class="jumbotron img-responsive" style="border: 2px solid black;">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6" style="margin-top: 100px;">
@@ -280,7 +280,7 @@
                                     <input type="text" class="form-control" name="nome" placeholder="Nome completo">
                                 </div>
                             </div>
-                            <div class="col-md-5 ">
+                            <div class="col-md-5">
                                 <div class="input-group" style="width:300px">
                                     <input type="email" class="form-control" name="email" placeholder="Email">
                                     <span class="input-group-btn">

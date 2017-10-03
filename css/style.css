@@ -1,6 +1,8 @@
 body{
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+    background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 
@@ -34,8 +36,19 @@ body{
     background-repeat: no-repeat;
     -moz-background-size: 100% 100%;
     /*-webkit-background-size: 100% 100%;*/
-    background-size: 100% 100%;
-    width: 100%;
+    background-size: cover;
+    max-width: 100%;
+}
+
+@media (max-width: 768px){
+    .jumbotron{
+        background-position: 50% 50%;
+    }
+
+    .navbar-brand img{
+        width: 50px;
+        margin-left: -5px;
+    }
 }
 
 .jumbotron>.row{
