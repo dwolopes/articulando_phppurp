@@ -148,6 +148,7 @@
                 </div>
                <div id="obrigado"></div>
         </div>
+
     </div>
 
     <!--Corpo do Blog-->
@@ -162,6 +163,15 @@
                             <a href="dicas-discurso-envolvente.php">
                                 <img src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" max-width="500">
                             </a>
+
+            <div class="row" style="margin-top: 20px;text-align: center; background-color: black; min-height:130px; opacity: 0.6">
+                <h5>QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
+                <h3>Cadastre-se e não perca nenhum de nossos conteúdos</h3>
+                <form action="armazenamento.php" method="POST">
+                    <div class="col-md-4 col-md-offset-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="nome" placeholder="Nome e sobrenome">
+                          
                         </div>
 
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
