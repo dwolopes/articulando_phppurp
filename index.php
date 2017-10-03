@@ -67,7 +67,7 @@
 </head>
 
 <body>
-    <header >
+<header>
 
 
     <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: -20px; min-height: 70px;">
@@ -105,51 +105,43 @@
         </div>
     </nav>
 
-
-
-
-
-
-
-    </header>
-  
-    <div class="jumbotron" style="border: 2px solid black;">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6" style="margin-top: 100px;">
-                    <h3 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 100px;">Conhecer <b>dicas de aprimoramento</b>
-                    pessoal me trouxe <b>confiança</b> e agora
-                    é mais fácil me apresentar publicamente</h3>
-                    <p id="p_capa">Biana Kiestn</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="img/efeito-marca.png" class="img-responsive" width="1000">
-                </div>
+</header>
+<div class="jumbotron" style="border: 2px solid black;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6" style="margin-top: 100px;">
+                <h3 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 100px;">Conhecer <b>dicas de aprimoramento</b>
+                pessoal me trouxe <b>confiança</b> e agora
+                é mais fácil me apresentar publicamente</h3>
+                <p id="p_capa">Biana Kiestn</p>
             </div>
-                <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; opacity: 0.5">
-                    <h5 style="color: white;">QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
-                    <h3 style="color: white;">Cadastre-se e não perca nenhum de nossos conteúdos</h3>
-                    <form action="armazenamento.php" method="POST" >
-                        <div class="col-md-4 col-md-offset-3 " >
-                            <div class="input-group" style="width: 300px">
-                                <input type="text" class="form-control" name="nome" placeholder="Nome completo">
-                            </div>
-                        </div>
-
-                        <div class="col-md-5 ">
-                            <div class="input-group" style="width:300px">
-                                <input type="text" class="form-control" name="mail" placeholder="Email">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;">Enviar</button>
-                                </span>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-               <div id="obrigado"></div>
+            <div class="col-md-6">
+                <img src="img/efeito-marca.png" class="img-responsive" width="1000">
+            </div>
         </div>
+        <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; opacity: 0.5">
+            <h5 style="color: white;">QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
+            <h3 style="color: white;">Cadastre-se e não perca nenhum de nossos conteúdos</h3>
+            <form action="armazenamento.php" method="POST" >
+                <div class="col-md-4 col-md-offset-3 " >
+                    <div class="input-group" style="width: 300px">
+                        <input type="text" class="form-control" name="nome" placeholder="Nome completo">
+                    </div>
+                </div>
 
+                <div class="col-md-5 ">
+                    <div class="input-group" style="width:300px">
+                        <input type="email" class="form-control" name="email" placeholder="Email">
+                        <span class="input-group-btn">
+                            <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;">Enviar</button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="obrigado"></div>
     </div>
+</div>
 
     <!--Corpo do Blog-->
     <!--Postagem Destaque-->
@@ -157,23 +149,12 @@
         <div class="col-md-12">
             <section class="postagens">
                 <div class="container">
-                    <div class="row" >
-
+                    <div class="row" style="margin-top: 20px;text-align: center; background-color: black; min-height:130px; opacity: 0.6">
                         <div class="col-lg-5  col-md-5 col-sm-5 col-xs-12">
                             <a href="dicas-discurso-envolvente.php">
-                                <img src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" max-width="500">
+                                <img  src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" min-width="100%">
                             </a>
-
-            <div class="row" style="margin-top: 20px;text-align: center; background-color: black; min-height:130px; opacity: 0.6">
-                <h5>QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
-                <h3>Cadastre-se e não perca nenhum de nossos conteúdos</h3>
-                <form action="armazenamento.php" method="POST">
-                    <div class="col-md-4 col-md-offset-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control" name="nome" placeholder="Nome e sobrenome">
-                          
                         </div>
-
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                             <a href="dicas-discurso-envolvente.php">
                                 <h1 style="font-family: 'Montserrat', sans-serif;">5 dicas infalíveis para deixar seu discurso cada vez mais envolvente</h1>
@@ -293,18 +274,23 @@
                     <div class="form-inline">
                         <h5>Quer adquirir cada vez mais conhecimento?</h5>
                         <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
-                        <form action="armazenamento.php" method="POST">
-                            <form id="search-form" class="form-search form-horizontal  col-lg-12 col-md-6 col-sm-4 col-xs-3 text-center">
-                                <input type="text" class="form-control " placeholder="Nome completo" id="nome">
-                                <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="Endereço de email">
+                        <form action="armazenamento.php" method="POST" >
+                            <div class="col-md-4 col-md-offset-3">
+                                <div class="input-group" style="width: 300px">
+                                    <input type="text" class="form-control" name="nome" placeholder="Nome completo">
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <div class="input-group" style="width:300px">
+                                    <input type="email" class="form-control" name="email" placeholder="Email">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-secondary" type="button">Enviar!</button>
+                                        <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;">Enviar</button>
                                     </span>
                                 </div>
-                            </form>
-                        </form>    
+                            </div>
+                        </form>
                     </div>
+                    <div id="obrigado"></div>
                 </div>
             </div>         
         </div> 

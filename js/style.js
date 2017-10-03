@@ -2,8 +2,6 @@ $(document).ready(function() {
 
     // process the form
     $('form').submit(function(event) {
-        alert("Você tentou submeter o formulário");
-
         // get the form data
         // there are many ways to get this data using jQuery (you can use the class or id also)
         var formData = {
@@ -22,10 +20,9 @@ $(document).ready(function() {
             // using the done promise callback
             .done(function(data) {
 
-                alert("Retornei");
 
                 // log data to the console so we can see
-                console.log(data);
+                //console.log(data);
 
                 if(data.success == true){
                     $("#obrigado").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/></center>");
