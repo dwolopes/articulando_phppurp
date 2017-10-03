@@ -1,6 +1,6 @@
 <?php
 
-//date_default_timezone_set('America/Sao_Paulo');
+date_default_timezone_set('America/Sao_Paulo');
 
 $servername = "articulando.chljb4pym510.us-east-1.rds.amazonaws.com";
 $username = "root";
@@ -45,10 +45,10 @@ $data           = array();      // array to pass back data
         //$nome = utf8_decode($_POST['nome']);
         $email = $_POST['email'];
         $ip = $_SERVER['REMOTE_ADDR'];
-       // $dataLocal = date('d/m/Y H:i:s', time());
+        $dataLocal = date('d/m/Y H:i:s', time());
 
         // show a message of success and provide a true success variable
-        $sql = "INSERT INTO leads (nome, email, ip_inscricao, data_inscricao) VALUES ('$nome', '$email', '$ip',now())";
+        $sql = "INSERT INTO leads (nome, email, ip_inscricao, data_inscricao) VALUES ('$nome', '$email', '$ip','$dataLocal')";
         // $data['success'] = true;
         // $data['message'] = 'Success!';
         if ($conn->query($sql) === TRUE) {
