@@ -2,7 +2,6 @@ $(document).ready(function() {
 
     // process the form
     $('form').submit(function(event) {
-        //alert("Você tentou submeter o formulário");
 
         // get the form data
         // there are many ways to get this data using jQuery (you can use the class or id also)
@@ -29,7 +28,8 @@ $(document).ready(function() {
 
                 if(data.success == true){
                     $("#obrigado").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/></center>");
-                }
+                } 
+
                 // here we will handle errors and validation messages
             });
 
