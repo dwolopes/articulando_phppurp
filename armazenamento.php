@@ -1,8 +1,8 @@
 <?php
 
-$servername = "localhost";
+$servername = "articulando.chljb4pym510.us-east-1.rds.amazonaws.com";
 $username = "root";
-$password = "@articulando123";
+$password = "mg17138275";
 $dbname = "articulei";
 
 // Create connection
