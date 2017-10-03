@@ -47,7 +47,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto col-lg-offset-2 col-md-offset-1">
             <div class="post-heading">
-              <h1>O que aprendi com Dale Carnegie através do Livro (“Como Fazer Amigos e Influenciar Pessoas”)</h1>
+              <h1>Marketing pessoal, o bicho de 7 cabeças</h1>
               <span class="meta">POR ANDRÉ OLIVEIRA</span>
           </div>
         </div>
@@ -148,7 +148,7 @@
                     <div class="input-group">
                       <input type="email" class="input-group" placeholder="Endereço de email">
                       <span class="input-group-btn">
-                        <button class="btn btn-secondary" type="button">Enviar!</button>
+                        <button class="btn btn-secondary" type="button">Quero receber!</button>
                       </span>
                     </div>
               </form>

@@ -49,7 +49,7 @@
           <div class="col-lg-8 col-md-10 mx-auto col-lg-offset-2 col-md-offset-1">
             <div class="post-heading">
               <h1> Dicas infalíveis para deixar seu discurso cada vez mais envolvente</h1>
-              <span class="meta">POR ANDRÉ OLIVEIRA</span>
+              <span class="meta"></span>
           </div>
         </div>
       </div>
@@ -136,7 +136,7 @@
                     <div class="input-group">
                       <input type="email" class="input-group" placeholder="Endereço de email">
                       <span class="input-group-btn">
-                        <button class="btn btn-secondary" type="button">Enviar!</button>
+                        <button class="btn btn-secondary" type="button">Quero receber!</button>
                       </span>
                     </div>
                   </div>

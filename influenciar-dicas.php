@@ -48,67 +48,45 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto col-lg-offset-2 col-md-offset-1">
             <div class="post-heading">
-              <h1> Dicas infalíveis para deixar seu discurso cada vez mais envolvente</h1>
-              <span class="meta">POR ANDRÉ OLIVEIRA</span>
+              <h1>Quer aprender a influenciar pessoas? Então essas dicas são para você</h1>
+              <span class="meta"></span>
           </div>
         </div>
       </div>
     </header>
 
     <!-- Post Content -->
-    <article>
+ <article>
       <div class="container clear">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto col-lg-offset-2 col-md-offset-1">
-<h4 class="section-heading"> Você sabia que um dos maiores medos da Humanidade é falar em público?</h4>
 
-            <p>Acidentes de trânsito, morte, aranhas e falar em público. Esta é a ordem dos quatromaiores medos dos jovens, segundo uma recente pesquisa conduzida com cerca de milpessoas nos Estados Unidos.</p>
+            <h4 class="section-heading">  Nesse pequeno artigo eu irei evidenciar técnicas para melhorar seu relacionamento com as pessoas, aprendidas com essa obra excepcional de Dale Carnegie.</h4>
 
-            <p>Conseguir transformar ideias em palavras, ou transmitir um pensamento ideológico, de forma que as pessoas entendam e internalizem o que está sendo dito, não é tarefa fácil. E muitas pessoas sofrem com isso em reuniões de negócios, apresentações de projetos, exposições acadêmicas, etc. </p>
+            <p>Para que as pessoas gostem mais de você, um conjunto de princípios essenciais deve ser seguido. São dicas simples que, quando aplicadas, fazem com que você seja mais admirado e capaz de fazer mais amigos. Vamos a elas:</p>
 
-            <p>A maioria dessas “dores” tem como causa principal o medo de falar em público. Por isso, trouxemos 5 dicas para tornar a sua experiência menos aterrorizante, espantar o nervosismo e alcançar seu objetivo.</p>
-
-            <h5>1- Não se preocupe com erros</h5>
-
+            <h4>Dica 1: Não critique, nem reclame</h4>
             <a href="#">
-              <img class="img-fluid" src="http://imageshack.com/a/img923/6725/cq0V6p.png" alt="">
+              <img class="img-fluid" src="http://imageshack.com/a/img924/6590/2zvdqg.png" alt="">
             </a>
 
+            <p>Ninguém gosta de pessoas que vivem reclamando, ou apontando o erro dos outros. Você não quer ser como elas se quiser melhorar sua capacidade de relacionamento. Por isso, deve sempre evitar criticar as outras pessoas. A crítica fere o orgulho e abre espaço para o ressentimento. É muito melhor recompensar o bom comportamento do que punir o mau comportamento. Evite ridicularizar as pessoas e não faça julgamentos de valor. Coloque-se no lugar do próximo. Qualquer um pode reclamar e criticar, mas é necessário ter autocontrole para ser compreensivo e entender, como genuinamente, ajudar as pessoas. Se você tem o hábito de encontrar falhas nos outros, precisa superá-lo. </p>
 
-            <p>Todo mundo já errou em apresentações e com você não será diferente. As pessoas que estão na platéia, tal como você, tem medo de falar em público. Se cometeu algum deslize, respire fundo, imagine que você está na sala da sua casa e continue.</p>
-
-            <h5>2- O corpo fala</h5>
-
-            <a href="#">
-              <img class="img-fluid" src="http://imageshack.com/a/img924/5062/GaeqOh.png" alt="">
-            </a>
-
-            <p>As duas coisas de maior importância em seu discurso são conteúdo e linguagem
-              corporal. Pode parecer loucura, mas quando você está falando, não é só a sua boca que está conversando, seu corpo também está. Em uma apresentação, mantenha-se sempre relaxado, mas nunca com os ombros recolhidos. As mãos devem ficar junto ao corpo e sempre olhe para o seu espectador. Isso criará proximidade com ele.</p>
-
-            <h5>3- Entonação</h5>
+            <h4>Dica 2: Mostre-se interessado</h4>
 
             <a href="#">
-              <img class="img-fluid" src="http://imageshack.com/a/img924/1466/Xpuqpw.png" alt="">
+              <img class="img-fluid" src="http://imageshack.com/a/img922/4076/sCq7lk.png" alt="">
             </a>
 
-            <p>A forma como você fala influencia diretamente no nível de engajamento do seu público. É normal que, no nosso dia a dia, usemos diversos tons de voz para podermos nos expressar e sermos compreendidos. Em apresentações, não deve ser diferente. Brinque com a entonação! Isso faz com que seu público se prenda nas suas ideias, identifique-se com você, além de compreender com muito mais clareza o seu discurso.</p>
+            <p>Só há uma maneira de influenciar e conseguir que alguém faça algo. E ela é extremamente simples. Você precisa fazer com que a pessoa realmente queira fazer esse algo. As melhores formas de desenvolver o melhor que há em qualquer indivíduo é a apreciação e a motivação. Saiba elogiar e reconhecer os feitos das pessoas. Incentive-as à continuar agindo de forma positiva. Porém, é preciso ter cuidado. Reconhecimento é diferente de bajulação. O reconhecimento é sincero e autêntico, enquanto a bajulação é falsa e claramente descoberta. Se você quer persuadir alguém, pergunte-se sempre: "Como eu poderia fazer essa pessoa querer fazer isso?"</p>
 
-            <h5>4- Entenda do assunto</h5>
+            <h4>Dica 3: Mostre o que as pessoas querem ver</h4>
 
             <a href="#">
-              <img class="img-fluid" src="http://imageshack.com/a/img924/4646/HPVfnv.png" alt="">
+              <img class="img-fluid" src="http://imageshack.com/a/img922/9751/GK87bP.png" alt="">
             </a>
 
-            <p>Quando for se apresentar, em qualquer situação, mais do que ter conhecimento sobre o assunto, você deve convencer as pessoas de que você é “O CARA”. Seus ouvintes precisam perceber que você é autoridade no assunto. Cite sempre referências bibliográficas, de livros que já tenha lido, além de experiências de vida, que lhe formaram o conhecimento.</p>
-
-            <h5> 5- A sua mente e o medo</h5>
-
-            <a href="#">
-              <img class="img-fluid" src="http://imageshack.com/a/img924/4644/PEKIzq.png" alt="">
-            </a>
-
-            <p>Você é o dono da sua mente e o medo nada mais é do que o estado emocional em situação de perigo. Mas você não está em perigo, então por que está com medo? Temos medo de ser julgados (perigo social), mas aí entra o controle mental. Você deve assimilar que é capaz, tem conhecimento e embasamento. Por isso, não precisa se preocupar com julgamentos. Por mais que seja clichê, é a verdade: a melhor maneira de vencer seus medos é os enfrentando </p>
+            <p>Você precisa dar aos outros o que eles querem, e não o que você quer. É claro que você se importa com o que você quer, mas a maioria das pessoas não se importam com o seu objetivo. Eles estão interessados no que eles querem. Por isso, para convencer alguém a fazer algo, você precisa fazer com que esse algo seja desejado e motivador para os objetivos pessoais do outro. Você precisa ver as coisas pelo ponto de vista deles e aí tentar influenciá-los a fazer algo que eles querem.</p>
 
           </div>
         </div>
@@ -136,7 +114,7 @@
                     <div class="input-group">
                       <input type="email" class="input-group form-control" placeholder="Endereço de email">
                       <span class="input-group-btn">
-                        <button class="btn btn-secondary" type="button">Enviar!</button>
+                        <button class="btn btn-secondary" type="button">Quero receber!</button>
                       </span>
                     </div>
                   </div>
