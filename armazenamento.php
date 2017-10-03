@@ -42,7 +42,7 @@ $data           = array();      // array to pass back data
 
         // DO ALL YOUR FORM PROCESSING HERE
         // THIS CAN BE WHATEVER YOU WANT TO DO (LOGIN, SAVE, UPDATE, WHATEVER)
-        //$nome = utf8_decode($_POST['nome']);
+        $nome = utf8_decode($_POST['nome']);
         $email = $_POST['email'];
         $ip = $_SERVER['REMOTE_ADDR'];
         $dataLocal = date('d/m/Y H:i:s', time());
