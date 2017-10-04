@@ -110,7 +110,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6" style="margin-top: 100px;">
-                <h3 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 100px; opacity: 0.5;">Conhecer <b>dicas de aprimoramento</b>
+                <h3 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 100px;">Conhecer <b>dicas de aprimoramento</b>
                 pessoal me trouxe <b>confiança</b> e agora
                 é mais fácil me apresentar publicamente</h3>
                 <p id="p_capa">Biana Kiestn</p>
