@@ -31,7 +31,8 @@ $(document).ready(function() {
                 //console.log(data);
 
                 if(data.success == true){
-                    $("#obrigado").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/></center>");
+                    $("#obrigado").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/><br><a href='img/infografico.png' target='_black' class='btn btn-sucess' style='color:white; background-color:#006C61;margin-bottom: 5px; font-weight: 500; '>Acessar Infográfico<a/></center>");
+
                 } 
 
                 // here we will handle errors and validation messages
@@ -70,7 +71,8 @@ $(document).ready(function() {
                 //console.log(data);
 
                 if(data.success == true){
-                    $("#obrigado_rodape").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/></center>");
+                    $("#obrigado_rodape").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/><br><a href='img/infografico.png' target='_black' class='btn btn-sucess' style='color:white; background-color:#006C61;margin-bottom: 5px; font-weight: 500; '>Acessar Infográfico<a/></center>");
+
                 } 
 
                 // here we will handle errors and validation messages
