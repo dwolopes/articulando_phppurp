@@ -28,7 +28,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php"><img style="max-width:50px; margin-top: -25px;" src="https://imageshack.com/i/poZHWOIhp"></a>
+          <a class="navbar-brand" href="index.php"><img style="max-width:50px; margin-top: -25px;" src="img/teste.png"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -113,7 +113,7 @@
                     <div class="input-group">
                       <input type="email" class="input-group" placeholder="Endereço de email">
                       <span class="input-group-btn">
-                        <button class="btn btn-secondary" type="button">Quero receber!</button>
+                        <button class="btn btn-secondary" type="button" style="background-color: #00AA9C; ">Quero receber!</button>
                       </span>
                     </div>
               </form>

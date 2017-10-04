@@ -84,7 +84,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="index.php">
-                    <img src="img/articulei_logo.png" class="img-responsive" width="60" >
+                    <img src="img/teste.png" class="img-responsive" width="60" >
                 </a>
             </div>
 
@@ -113,7 +113,7 @@
                 <h3 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 100px;">Conhecer <b>dicas de aprimoramento</b>
                 pessoal me trouxe <b>confiança</b> e agora
                 é mais fácil me apresentar publicamente</h3>
-                <p id="p_capa">Biana Kiestn</p>
+                <p id="p_capa">Bianca Kiestn</p>
             </div>
             <div class="col-md-6">
                 <img src="img/efeito-marca.png" class="img-responsive" width="1000">
@@ -121,7 +121,7 @@
         </div>
         <div class="row" style="margin-top: 15px; background: rgba(0,0,0,0.5); text-align: center; min-height:130px;">
             <h5 style="color: white;">QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
-            <h3 style="color: white;">Cadastre-se e não perca nenhum de nossos conteúdos</h3>
+            <h3 style="color: white;">Seja o primeiro a receber nossas novidades</h3>
             <form action="armazenamento.php" method="POST" >
                 <div class="col-md-4 col-md-offset-3 " >
                     <div class="input-group" style="width: 300px">
@@ -133,7 +133,7 @@
                     <div class="input-group" style="width:300px">
                         <input type="email" class="form-control" name="email" placeholder="Email">
                         <span class="input-group-btn">
-                            <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;">Enviar</button>
+                            <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;">Quero receber!</button>
                         </span>
                     </div>
                 </div>
