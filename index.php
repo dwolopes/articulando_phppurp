@@ -71,7 +71,7 @@
 
 
     <nav class="navbar navbar-default navbar-static-top" style="min-height: 70px;">
-        <div class="container">
+        <div class="container clear">
             <div class="navbar-header">
 
                 <!-- Collapsed Hamburger -->
@@ -119,7 +119,7 @@
                 <img src="img/efeito-marca.png" class="img-responsive" width="1000">
             </div>
         </div>
-        <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; opacity: 0.5">
+        <div class="row" style="margin-top: 15px; background: rgba(0,0,0,0.5); text-align: center; min-height:130px;">
             <h5 style="color: white;">QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
             <h3 style="color: white;">Cadastre-se e não perca nenhum de nossos conteúdos</h3>
             <form action="armazenamento.php" method="POST" >
@@ -149,7 +149,7 @@
         <div class="col-md-12">
             <section class="postagens">
                 <div class="container">
-                    <div class="row" style="margin-top: 20px;text-align: center; background-color: black; min-height:130px; opacity: 0.6">
+                    <div class="row" style="margin-top: 20px;text-align: center; min-height:130px">
                         <div class="col-lg-5  col-md-5 col-sm-5 col-xs-12">
                             <a href="dicas-discurso-envolvente.php">
                                 <img  src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" min-width="100%">
