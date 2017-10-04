@@ -11,11 +11,15 @@
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">   
-    <link href="fonts/Bariol.ttf" rel="stylesheet">
-    
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->  
+  <link href="fonts/Bariol.ttf" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="post1.css">
+  <link rel="icon" type="image/x-icon" href="img/icon.png">
+  <script src="js/style.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
 </head>
 <body>
 
@@ -128,19 +132,19 @@
             <div class="container">
                 <div class="row text-center">
                     <img id="divCorpo" class="img-responsive" width="20">
-                    <div id="obrigado_rodape1"></div>
+                    <div id="obrigado_rodape"></div>
                     <div class="form-inline">
                         <h5>Quer adquirir cada vez mais conhecimento?</h5>
                         <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
                         <form action="armazenamento.php" method="POST" id="form_rodape">
                             <div class="col-md-3 col-md-offset-3 " >
                                 <div class="input-group" style="min-width: 200px">
-                                    <input type="text" class="form-control" name="nome_rodape1" placeholder="Nome completo" required style="border-radius: 5px; margin-bottom: 5px;">
+                                    <input type="text" class="form-control" name="nome_rodape" placeholder="Nome completo" required style="border-radius: 5px; margin-bottom: 5px;">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="input-group" style="min-width:300px">
-                                    <input type="email" class="form-control" name="email_rodape1" placeholder="Email" required style="margin-bottom: 5px;">
+                                    <input type="email" class="form-control" name="email_rodape" placeholder="Email" required style="margin-bottom: 5px;">
                                     <span class="input-group-btn">
                                         <button class="btn btn-secondary" type="submit" style="color:white;margin-bottom: 5px; background-color:#61AAA4;"><strong>Quero receber </strong> </button>
                                     </span>
@@ -161,11 +165,6 @@
     </div> 
     </div> 
 </footer>
-  
-  
- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
- <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
 
 </body>
 </html>

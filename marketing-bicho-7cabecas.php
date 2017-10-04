@@ -13,6 +13,12 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">   
   <link href="fonts/Bariol.ttf" rel="stylesheet"> 
+  <link rel="icon" type="image/x-icon" href="img/icon.png">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="js/style.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="post1.css">
 </head>
@@ -126,13 +132,6 @@
         </div>
       </div>
     </article>
-
-
-
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">   
-    
-
     
 <footer>
 <div class="container-fluid">
@@ -174,11 +173,5 @@
     </div> 
     </div>
 </footer>
-  
-  
- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
- <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-
 </body>
 </html>
