@@ -50,12 +50,14 @@ body{
         margin-left: -5px;
     }
     img#post2.img-responsive{
-        min-width: 350px;
+        min-width: 200px;
         text-align: center;
+        margin-left: 0px;
     }
     img#post3.img-responsive{
-        min-width: 350px;
+        min-width: 200px;
         text-align: center;
+        margin-left: 0px;
     }
 }
 
@@ -92,7 +94,9 @@ div .col-md-6 .col-md-offset-6{
     background-color: transparent;
 }
 
-
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #61aaa4;
+}
 
 
 .navbar-default .navbar-nav>li>a {
