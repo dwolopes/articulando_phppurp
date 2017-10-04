@@ -49,6 +49,14 @@ body{
         width: 50px;
         margin-left: -5px;
     }
+    img#post2.img-responsive{
+        min-width: 350px;
+        text-align: center;
+    }
+    img#post3.img-responsive{
+        min-width: 350px;
+        text-align: center;
+    }
 }
 
 .jumbotron>.row{
@@ -112,15 +120,13 @@ div .col-md-6 .col-md-offset-6{
     background-color: #006c61
 }
 
+
+
 /*Postagens*/
 
 div#super.row{
     text-align: center; 
-    background-color: #61aaa4; 
     min-height:130px; 
-    opacity: 0.8; 
-    background: linear-gradient(to right, white 1%, #61aaa4 10%)
-
 }
 /*Rodapé*/
 .footer-top{

@@ -162,9 +162,9 @@
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                             <a href="dicas-discurso-envolvente.php">
-                                <h1 style="font-family: 'Montserrat', sans-serif; color: black">5 dicas infalíveis para deixar seu discurso cada vez mais envolvente</h1>
+                                <h2 style="font-family: 'Montserrat', sans-serif;">5 dicas infalíveis para deixar seu discurso cada vez mais envolvente</h2>
                             </a>
-                            <h4 style="font-family: 'Montserrat', sans-serif; color: white">Você sabia que um dos maiores medos da Humanidade é falar em público?
+                            <h4 style="font-family: 'Montserrat', sans-serif;">Você sabia que um dos maiores medos da Humanidade é falar em público?
                                 Acidentes de trânsito, morte, aranhas e falar em público. Esta é a ordem dos quatro maiores medos[...] 
                             </h4>
                         </div>
@@ -181,9 +181,9 @@
             <hr>
             <div class="row" >
                                         
-                <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 center" style="text-align: center;">
                     <a href="marketing-bicho-7cabecas.php">
-                        <img src="https://imageshack.com/i/pmqIMGeAp" class="img-responsive" width="280"  style=" margin-left:60px">
+                        <img src="https://imageshack.com/i/pmqIMGeAp" class="img-responsive" width="280"  style="margin-left:60px;" id="post2">
                     </a>
                 </div>
 
@@ -207,7 +207,7 @@
                                         
                 <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">
                     <a href="influenciar-dicas.php">
-                        <img src="https://imageshack.com/i/pmKdXnWOp" class="img-responsive" width="280" style=" margin-left:60px">
+                        <img src="https://imageshack.com/i/pmKdXnWOp" class="img-responsive" width="280" style=" margin-left:60px" id="post3">
                     </a>
                 </div>
 
