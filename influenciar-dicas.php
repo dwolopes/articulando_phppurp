@@ -113,7 +113,7 @@
                     <div class="input-group">
                       <input type="email" class="input-group" placeholder="Endereço de email">
                       <span class="input-group-btn">
-                        <button class="btn btn-secondary" type="button" style="background-color: #00AA9C; ">Quero receber!</button>
+                        <button class="btn btn-secondary" type="button">Quero receber!</button>
                       </span>
                     </div>
               </form>
