@@ -10,6 +10,27 @@ $dbname = "articulei";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
+//
+
+function get_client_ip() {
+    $ipaddress = '';
+    if (isset($_SERVER['HTTP_CLIENT_IP']))
+        $ipaddress = $_SERVER['HTTP_CLIENT_IP'];
+    else if(isset($_SERVER['HTTP_X_FORWARDED_FOR']))
+        $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    else if(isset($_SERVER['HTTP_X_FORWARDED']))
+        $ipaddress = $_SERVER['HTTP_X_FORWARDED'];
+    else if(isset($_SERVER['HTTP_FORWARDED_FOR']))
+        $ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];
+    else if(isset($_SERVER['HTTP_FORWARDED']))
+        $ipaddress = $_SERVER['HTTP_FORWARDED'];
+    else if(isset($_SERVER['REMOTE_ADDR']))
+        $ipaddress = $_SERVER['REMOTE_ADDR'];
+    else
+        $ipaddress = 'UNKNOWN';
+    return $ipaddress;
+}
+
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -44,7 +65,8 @@ $data           = array();      // array to pass back data
         // THIS CAN BE WHATEVER YOU WANT TO DO (LOGIN, SAVE, UPDATE, WHATEVER)
         $nome = $_POST['nome'];
         $email = $_POST['email'];
-        $ip = $_SERVER['REMOTE_ADDR'];
+        //$ip = $_SERVER['REMOTE_ADDR'];
+        $ip = get_client_ip();
         $dataLocal = date('d/m/Y H:i:s', time());
 
         // show a message of success and provide a true success variable
