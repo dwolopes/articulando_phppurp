@@ -135,7 +135,7 @@
                     <div class="input-group" style="min-width:300px">
                         <input type="email" class="form-control" name="email" placeholder="Email" required style="margin-bottom: 5px;">
                         <span class="input-group-btn">
-                            <button class="btn btn-secondary" type="submit" style="color:#7f7f7f; background-color:#FFE000 ;margin-bottom: 5px;"><strong>Quero receber</strong></button>
+                            <button class="btn btn-secondary" type="submit" style="color:white; background-color:#006C61;margin-bottom: 5px;"><strong>Quero receber</strong></button>
                         </span>
                     </div>
                 </div>
@@ -292,7 +292,7 @@
                                 <div class="input-group" style="min-width:300px">
                                     <input type="email" class="form-control" name="email_rodape" placeholder="Email" required style="margin-bottom: 5px;">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-secondary" type="submit" style="color:white;color: #7f7f7f;margin-bottom: 5px; background-color:#FFE000;"><strong>Quero receber </strong> </button>
+                                        <button class="btn btn-secondary" type="submit" style="color:white;margin-bottom: 5px; background-color:#61AAA4;"><strong>Quero receber </strong> </button>
                                     </span>
                                 </div>
                             </div>

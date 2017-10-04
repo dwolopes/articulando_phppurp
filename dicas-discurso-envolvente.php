@@ -121,38 +121,45 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">   
     
 
-    
-    <div class="search-text"> 
-      <div class="container">
-        <div class="row text-center">
-         
-          <div class="form-inline">
-            <h5>Quer adquirir cada vez mais conhecimento?</h5>
-            <h4 class="cham">Seja sempre o primeiro a receber as novidades</h4>
-            <form action="armazenamento.php" method="POST">
-              <form id="search-form" class="form-group form-horizontal  col-lg-12 col-md-12   col-sm-3 col-xs-4 text-center">
-                    <input type="text" class="input-group " placeholder="Nome Completo" id="nome">
-                    <div class="input-group">
-                      <input type="email" class="input-group" placeholder="Endereço de email">
-                      <span class="input-group-btn">
-                        <button class="btn btn-secondary" type="button">Quero receber!</button>
-                      </span>
+<footer>
+<div class="container-fluid">
+    <div class="row">
+        <div class="search-text"> 
+            <div class="container">
+                <div class="row text-center">
+                    <img id="divCorpo" class="img-responsive" width="20">
+                    <div id="obrigado_rodape1"></div>
+                    <div class="form-inline">
+                        <h5>Quer adquirir cada vez mais conhecimento?</h5>
+                        <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
+                        <form action="armazenamento.php" method="POST" id="form_rodape">
+                            <div class="col-md-3 col-md-offset-3 " >
+                                <div class="input-group" style="min-width: 200px">
+                                    <input type="text" class="form-control" name="nome_rodape1" placeholder="Nome completo" required style="border-radius: 5px; margin-bottom: 5px;">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="input-group" style="min-width:300px">
+                                    <input type="email" class="form-control" name="email_rodape1" placeholder="Email" required style="margin-bottom: 5px;">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-secondary" type="submit" style="color:white;margin-bottom: 5px; background-color:#61AAA4;"><strong>Quero receber </strong> </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-              </form>
-            </form>
-            <div id="obrigado"></div>
-          </div>
-        </div>         
-      </div>     
-    </div>
-    <div class="copyright">
-        <div class="container">
-            <div class="row text-center">
-              <p>Copyright © 2017 All rights reserved</p>
+                </div>
+            </div>         
+        </div> 
+        <div class="copyright">
+            <div class="container">
+                <div class="row text-center">
+                    <p>Copyright © 2017 All rights reserved</p>
+                </div>
             </div>
-          </div>
         </div>
-    </div>  
+    </div> 
+    </div> 
 </footer>
   
   
