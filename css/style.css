@@ -23,12 +23,71 @@ body{
 }
 
 
-/*Banner Principal*/
-.navbar-brand>img {
-    margin-top: -10px;
-    display: block;
-    margin-left: 70px;
+/*navbar*/
+
+.navbar {background-color: #fff !important; border-color: transparent; border-radius: 0%;
+box-shadow: 0 0 2px 1px rgba(0,0,0,.35); margin-bottom: 0px; font-size: 20px;
+ }
+/** Navbar **/
+.navbar-default .navbar-nav>li>a { padding-top: 25px; padding-bottom: 25px; min-height: 69px; color: #A4A4A4;}
+.navbar-default .navbar-nav > li > a:hover {color: #00AA9C;}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #00AA9C;
 }
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: #00AA9C;
+}
+.navbar-default .navbar-nav .open .dropdown-menu {
+  background-color: #060606 !important;
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+  color: #585858 !important;
+  padding: 12px 12px 12px 12px !important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #00AA9C !important;
+  background-color: transparent !important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #00AA9C !important;
+    background-color: transparent !important;
+  }
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  border-color: transparent;
+  background-color: transparent;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent;
+}
+.navbar-form { padding-top: 10px !important;}
+.navbar-text { margin-top: 25px; }
+.navbar-default .navbar-text { color: #00AA9C;}
+.navbar-default .navbar-brand {
+  font-size: 21px;
+  color: #00AA9C;
+  margin-top: 10px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: grey;
+}
+/*Banner Principal*/
+
 
 .jumbotron{
     margin-top:-22px;
@@ -72,44 +131,12 @@ body{
     min-width: 100%;
 }
 
-.navbar-default .navbar-nav>li>a {
-    color: #777;
-    font-size: medium;
-    font-weight: 700;
-    margin-right: 80px;
-}
+
 
 div .col-md-6 .col-md-offset-6{
     margin-bottom: -110px;
 }
 
-.navbar-default .navbar-nav>.active>a{
-    border-bottom: 3px solid #006c62;
-    background-color: transparent;
-    padding-bottom: -20px;
-    margin-bottom: 10px;
-}
-
-.navbar-default .navbar-nav>.active>a:hover{
-    background-color: transparent;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #61aaa4;
-}
-
-
-.navbar-default .navbar-nav>li>a {
-    color: #777;
-    font-size: medium;
-    font-weight: 700;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-    color: #3a8178;
-    font-size: medium;
-    font-weight: 700;
-}
 
 .jumbotron p {
     margin-bottom: 15px;

@@ -36,7 +36,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.php"">HOME</a></li>
+              <li class="active"><a href="index.php"">HOME</a></li>
               <li><a href="index.php"">SOBRE</a></li>
               <li><a href="index.php"">CONTATO</a></li>
           </ul>
@@ -124,7 +124,7 @@
                                 <div class="input-group" style="min-width:300px">
                                     <input type="email" class="form-control" name="email_rodape" placeholder="Email" required style="margin-bottom: 5px;">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-secondary" type="submit" style="color:white;margin-bottom: 5px; background-color:#61AAA4;"><strong>Quero receber </strong> </button>
+                                        <button class="btn btn-secondary" type="submit" style="margin-bottom: 5px;"><strong>Quero receber </strong> </button>
                                     </span>
                                 </div>
                             </div>
