@@ -281,7 +281,7 @@
                     <div id="obrigado_rodape"></div>
                     <div class="form-inline">
                         <h5>Quer adquirir cada vez mais conhecimento?</h5>
-                        <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
+                        <h4 class="cham">Seja sempre o primeiro a receber nossas novidades</h4>
                         <form action="armazenamento.php" method="POST" id="form_rodape">
                             <div class="col-md-3 col-md-offset-3 " >
                                 <div class="input-group" style="min-width: 200px">
