@@ -31,9 +31,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">SOBRE</a></li>
-              <li><a href="#">CONTATO</a></li>
+              <li><a href="index.php">HOME</a></li>
+              <li><a href="index.php">SOBRE</a></li>
+              <li><a href="index.php">CONTATO</a></li>
           </ul>
         </div>
       </div>
@@ -47,7 +47,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto col-lg-offset-2 col-md-offset-1">
             <div class="post-heading">
-              <h1>O que aprendi com Dale Carnegie através do Livro (“Como Fazer Amigos e Influenciar Pessoas”)</h1>
+              <h1>Marketing pessoal, o bicho de 7 cabeças</h1>
               <span class="meta">POR ANDRÉ OLIVEIRA</span>
           </div>
         </div>
@@ -144,15 +144,16 @@
             <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
             <form action="armazenamento.php" method="POST">
               <form id="search-form" class="form-group form-horizontal  col-lg-12 col-md-12   col-sm-3 col-xs-4 text-center">
-                    <input type="text" class="input-group " placeholder="Nome" id="nome">
+                    <input type="text" class="input-group " placeholder="Nome Completo" id="nome">
                     <div class="input-group">
                       <input type="email" class="input-group" placeholder="Endereço de email">
                       <span class="input-group-btn">
-                        <button class="btn btn-secondary" type="button">Enviar!</button>
+                        <button class="btn btn-secondary" type="button">Quero receber!</button>
                       </span>
                     </div>
               </form>
             </form>
+            <div id="obrigado"></div>
           </div>
         </div>         
       </div>     
