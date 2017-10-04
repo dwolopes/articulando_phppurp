@@ -50,12 +50,14 @@ body{
         margin-left: -5px;
     }
     img#post2.img-responsive{
-        min-width: 350px;
+        min-width: 200px;
         text-align: center;
+        margin-left: 0px;
     }
     img#post3.img-responsive{
-        min-width: 350px;
+        min-width: 200px;
         text-align: center;
+        margin-left: 0px;
     }
 }
 
