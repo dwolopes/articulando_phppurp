@@ -3,7 +3,7 @@
 .navbar {background-color: #fff !important; border-color: transparent; border-radius: 0%;
 box-shadow: 0 0 2px 1px rgba(0,0,0,.35); margin-bottom: 0px;
  }
-/** Default navbar **/
+/** Navbar **/
 .navbar-default .navbar-nav>li>a { padding-top: 25px; padding-bottom: 25px; min-height: 69px; color: #A4A4A4;}
 .navbar-default .navbar-nav > li > a:hover {color: #00AA9C;}
 .navbar-default .navbar-nav > .active > a,

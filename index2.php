@@ -66,42 +66,50 @@
 </head>
 
 <body>
-<header>
+    <nav class="navbar navbar-default navbar-static-top" style="min-height: 70px;">
+        <div class="container clear">
+            <div class="navbar-header">
 
-<nav class="navbar navbar-default">
-      <div class="container clear">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Menu</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.php"><img style="max-width:50px; margin-top: -25px;" src="img/teste.png"></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.php">HOME</a></li>
-              <li><a href="index.php">SOBRE</a></li>
-              <li><a href="index.php">CONTATO</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    
-</header>
+                <!-- Collapsed Hamburger -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-<div class="jumbotron">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-6">
-                <img src="img/efeito-marca.png" class="img-responsive" width="500">
+                <!-- Branding Image -->
+                <a class="navbar-brand" href="index.php">
+                    <img src="img/teste.png" class="img-responsive" width="60" >
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <!-- Left Side Of Navbar -->
+                <!-- Right Side Of Navbar -->
+                    <ul class="nav navbar-nav navbar-right" style="margin-right: 100px;">
+                        <ul class="nav navbar-nav" style="margin-top: 20px;">
+    <!--                             <li class="active">
+                                <a href="#"><span>Saiba Mais</span></a>
+                            </li> -->
+                            <li class="active"><a href="#">HOME</a></li>
+                            <li><a href="#">SOBRE</a></li>
+                            <li><a href="#">CONTATO</a></li>
+                        </ul>
+                    </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6" style="margin-top: 100px;">
-                <h3 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 50px;">"Conhecer <b>dicas de aprimoramento</b>
+    </nav>
+
+
+<header class="masthead" style="background-image: url('https://imagizer.imageshack.us/v2/1366x581q90/922/BrxA9L.png")>
+<div class="container clear">
+    <div class="container">
+        <div class="row citacao">
+            <div class="col-md-6 col-sm-12 col col-xs-12" style="margin-top: 100px;">
+                <h1 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 50px;">"Conhecer <b>dicas de aprimoramento</b>
                 pessoal me trouxe <b>confiança</b> e agora
-                é mais fácil me apresentar publicamente"</h3>
+                é mais fácil me apresentar publicamente"</h1>
                 <p id="p_capa">Bianca Kiestn</p>
             </div>
             <div class="col-md-6">
@@ -122,7 +130,7 @@
                     <div class="input-group" style="min-width:300px">
                         <input type="email" class="form-control" name="email" placeholder="Email" required style="margin-bottom: 5px;">
                         <span class="input-group-btn">
-                            <button class="btn btn-secondary" type="submit" style="color:#7F7F7F; background-color:#FFE000;margin-bottom: 5px;"><strong>Quero receber</strong></button>
+                            <button class="btn btn-secondary" type="submit" style="color:#7f7f7f; background-color:#FFE000 ;margin-bottom: 5px;"><strong>Quero receber</strong></button>
                         </span>
                     </div>
                 </div>
@@ -131,8 +139,8 @@
     </div>
     <img id="divCorpo" class="img-responsive" width="20">
     <div id="obrigado"></div>
-</div>
-
+      </div>
+    </header>
     <!--Corpo do Blog-->
     <!--Postagem Destaque-->
     <div class="container">
@@ -268,7 +276,7 @@
                     <div id="obrigado_rodape"></div>
                     <div class="form-inline">
                         <h5>Quer adquirir cada vez mais conhecimento?</h5>
-                        <h4 class="cham">Seja sempre o primeiro a receber nossas novidades</h4>
+                        <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
                         <form action="armazenamento.php" method="POST" id="form_rodape">
                             <div class="col-md-3 col-md-offset-3 " >
                                 <div class="input-group" style="min-width: 200px">
@@ -279,7 +287,7 @@
                                 <div class="input-group" style="min-width:300px">
                                     <input type="email" class="form-control" name="email_rodape" placeholder="Email" required style="margin-bottom: 5px;">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-secondary" type="submit" style="margin-bottom: 5px;color:#7F7F7F; background-color:#FFE000;"><strong>Quero receber </strong> </button>
+                                        <button class="btn btn-secondary" type="submit" style="color:white;color: #7f7f7f;margin-bottom: 5px; background-color:#FFE000;"><strong>Quero receber </strong> </button>
                                     </span>
                                 </div>
                             </div>
