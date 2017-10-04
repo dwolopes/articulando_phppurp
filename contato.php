@@ -93,9 +93,9 @@
     <!--                             <li class="active">
                                 <a href="#"><span>Saiba Mais</span></a>
                             </li> -->
-                            <li class="active"><a href="#">HOME</a></li>
-                            <li><a href="#">SOBRE</a></li>
-                            <li><a href="#">CONTATO</a></li>
+                            <li><a href="index.php">HOME</a></li>
+                            <li><a href="index.php">SOBRE</a></li>
+                            <li class="active"><a href="#">CONTATO</a></li>
                         </ul>
                     </ul>
             </div>
