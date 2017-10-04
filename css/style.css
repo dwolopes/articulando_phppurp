@@ -69,6 +69,10 @@ body{
     margin-right: 80px;
 }
 
+div .col-md-6 .col-md-offset-6{
+    margin-bottom: -110px;
+}
+
 .navbar-default .navbar-nav>.active>a{
     border-bottom: 3px solid #006c62;
     background-color: transparent;
@@ -108,7 +112,16 @@ body{
     background-color: #006c61
 }
 
+/*Postagens*/
 
+div#super.row{
+    text-align: center; 
+    background-color: #61aaa4; 
+    min-height:130px; 
+    opacity: 0.8; 
+    background: linear-gradient(to right, white 1%, #61aaa4 10%)
+
+}
 /*Rodapé*/
 .footer-top{
     padding-bottom:30px;
