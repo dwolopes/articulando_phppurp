@@ -141,7 +141,7 @@
          
           <div class="form-inline">
             <h5>Quer adquirir cada vez mais conhecimento?</h5>
-            <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
+            <h4 class="cham">Seja sempre o primeiro a receber as novidades</h4>
             <form action="armazenamento.php" method="POST">
               <form id="search-form" class="form-group form-horizontal  col-lg-12 col-md-12   col-sm-3 col-xs-4 text-center">
                     <input type="text" class="input-group " placeholder="Nome Completo" id="nome">
