@@ -68,10 +68,8 @@
 
 <body>
 <header>
-
-
     <nav class="navbar navbar-default navbar-static-top" style="min-height: 70px;">
-        <div class="container">
+        <div class="container clear">
             <div class="navbar-header">
 
                 <!-- Collapsed Hamburger -->
@@ -93,7 +91,7 @@
                 <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right" style="margin-right: 100px;">
                         <ul class="nav navbar-nav" style="margin-top: 20px;">
-<!--                             <li class="active">
+    <!--                             <li class="active">
                                 <a href="#"><span>Saiba Mais</span></a>
                             </li> -->
                             <li class="active"><a href="#">HOME</a></li>
@@ -104,62 +102,67 @@
             </div>
         </div>
     </nav>
-
 </header>
-<div class="jumbotron img-responsive" style="border: 2px solid black;">
-    <div class="container-fluid">
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-6">
+                <img src="img/efeito-marca.png" class="img-responsive" width="500">
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-6" style="margin-top: 100px;">
-                <h3 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 100px;">Conhecer <b>dicas de aprimoramento</b>
+                <h3 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 50px;">Conhecer <b>dicas de aprimoramento</b>
                 pessoal me trouxe <b>confiança</b> e agora
                 é mais fácil me apresentar publicamente</h3>
                 <p id="p_capa">Biana Kiestn</p>
             </div>
             <div class="col-md-6">
-                <img src="img/efeito-marca.png" class="img-responsive" width="1000">
             </div>
         </div>
-        <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; opacity: 0.5">
+    </div>
+        <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; background: rgba(0,0,0,0.5);">
             <h5 style="color: white;">QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
             <h3 style="color: white;">Cadastre-se e não perca nenhum de nossos conteúdos</h3>
             <form action="armazenamento.php" method="POST" >
-                <div class="col-md-4 col-md-offset-3 " >
-                    <div class="input-group" style="width: 300px">
-                        <input type="text" class="form-control" name="nome" placeholder="Nome completo">
+                <div class="col-md-3 col-md-offset-3 " >
+                    <div class="input-group" style="min-width: 300px">
+                        <input type="text" class="form-control" name="nome" placeholder="Nome completo" required style="border-radius: 5px; margin-bottom: 5px;">
                     </div>
                 </div>
-
-                <div class="col-md-5 ">
-                    <div class="input-group" style="width:300px">
-                        <input type="email" class="form-control" name="email" placeholder="Email">
+                <div class="col-md-4">
+                    <div class="input-group" style="min-width:300px">
+                        <input type="email" class="form-control" name="email" placeholder="Email" required style="margin-bottom: 5px;">
                         <span class="input-group-btn">
-                            <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;">Enviar</button>
+                            <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;margin-bottom: 5px;">Quero receber</button>
                         </span>
                     </div>
                 </div>
             </form>
         </div>
-        <div id="obrigado"></div>
-    </div>
+    <img id="divCorpo" class="img-responsive" width="20">
+    <div id="obrigado"></div>
 </div>
 
     <!--Corpo do Blog-->
     <!--Postagem Destaque-->
-    <div class="row">
+    <div class="container">
+    <div class="row"">
         <div class="col-md-12">
             <section class="postagens">
                 <div class="container">
-                    <div class="row" style="margin-top: 20px;text-align: center; background-color: black; min-height:130px; opacity: 0.6">
+                    <div class="row" id="super">
                         <div class="col-lg-5  col-md-5 col-sm-5 col-xs-12">
                             <a href="dicas-discurso-envolvente.php">
-                                <img  src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" min-width="100%">
+                                <img  src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" max-width="100%">
                             </a>
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                             <a href="dicas-discurso-envolvente.php">
-                                <h1 style="font-family: 'Montserrat', sans-serif;">5 dicas infalíveis para deixar seu discurso cada vez mais envolvente</h1>
+                                <h1 style="font-family: 'Montserrat', sans-serif; color: black">5 dicas infalíveis para deixar seu discurso cada vez mais envolvente</h1>
                             </a>
-                            <h4 style="font-family: 'Montserrat', sans-serif;">Você sabia que um dos maiores medos da Humanidade é falar em público?
+                            <h4 style="font-family: 'Montserrat', sans-serif; color: white">Você sabia que um dos maiores medos da Humanidade é falar em público?
                                 Acidentes de trânsito, morte, aranhas e falar em público. Esta é a ordem dos quatro maiores medos[...] 
                             </h4>
                         </div>
@@ -167,6 +170,7 @@
                 </div>
             </section>
         </div>
+    </div>
     </div>    
 
     <!--segunda postagem-->
@@ -267,35 +271,35 @@
 
 
     <!--Rodapé-->
+    <div class="container-fluid">
     <div class="row">
         <div class="search-text"> 
             <div class="container">
                 <div class="row text-center">
+                    <img id="divCorpo" class="img-responsive" width="20">
+                    <div id="obrigado_rodape"></div>
                     <div class="form-inline">
                         <h5>Quer adquirir cada vez mais conhecimento?</h5>
                         <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
-                        <form action="armazenamento.php" method="POST" >
-                            <div class="col-md-4 col-md-offset-3">
-                                <div class="input-group" style="width: 300px">
-                                    <input type="text" class="form-control" name="nome" placeholder="Nome completo">
+                        <form action="armazenamento.php" method="POST" id="form_rodape">
+                            <div class="col-md-3 col-md-offset-3 " >
+                                <div class="input-group" style="min-width: 200px">
+                                    <input type="text" class="form-control" name="nome_rodape" placeholder="Nome completo" required style="border-radius: 5px; margin-bottom: 5px;">
                                 </div>
                             </div>
-                            <div class="col-md-5">
-                                <div class="input-group" style="width:300px">
-                                    <input type="email" class="form-control" name="email" placeholder="Email">
+                            <div class="col-md-4">
+                                <div class="input-group" style="min-width:300px">
+                                    <input type="email" class="form-control" name="email_rodape" placeholder="Email" required style="margin-bottom: 5px;">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;">Enviar</button>
+                                        <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;margin-bottom: 5px; background-color:#61aaa4;">Quero receber</button>
                                     </span>
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <div id="obrigado"></div>
                 </div>
             </div>         
         </div> 
-
-
         <div class="copyright">
             <div class="container">
                 <div class="row text-center">
@@ -303,6 +307,7 @@
                 </div>
             </div>
         </div>
-    </div>  
+    </div> 
+    </div> 
 </body>
 </html>
