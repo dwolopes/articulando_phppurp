@@ -122,6 +122,7 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid">
         <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; background: rgba(0,0,0,0.5);">
             <h5 style="color: white;">QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
             <h3 style="color: white;">Cadastre-se e não perca nenhum de nossos conteúdos</h3>
@@ -141,6 +142,7 @@
                 </div>
             </form>
         </div>
+    </div>
     <img id="divCorpo" class="img-responsive" width="20">
     <div id="obrigado"></div>
 </div>
