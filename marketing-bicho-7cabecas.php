@@ -54,7 +54,7 @@
           <div class="col-lg-8 col-md-10 mx-auto col-lg-offset-2 col-md-offset-1">
             <div class="post-heading">
               <h1>Marketing pessoal, o bicho de 7 cabeças</h1>
-              <span class="meta">Por:André Oliveira</span>
+              <span class="meta">Por: André Oliveira</span>
           </div>
         </div>
       </div>
