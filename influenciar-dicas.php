@@ -28,13 +28,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php"><img style="max-width:50px; margin-top: -25px;" src="https://imageshack.com/i/poZHWOIhp"></a>
+          <a class="navbar-brand" href="index.php"><img style="max-width:50px; margin-top: -25px;" src="img/teste.png"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">SOBRE</a></li>
-              <li><a href="#">CONTATO</a></li>
+              <li><a href="index.php"">HOME</a></li>
+              <li><a href="index.php"">SOBRE</a></li>
+              <li><a href="index.php"">CONTATO</a></li>
           </ul>
         </div>
       </div>
@@ -43,7 +43,7 @@
     
 
 
-    <header class="masthead" style="background-image: url('http://imageshack.com/a/img924/1938/wMZz8a.png")>
+    <header class="masthead" style="background-image: url('https://imagizer.imageshack.us/v2/1366x412q90/924/kuIDLN.png")>
       <div class="container clear">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto col-lg-offset-2 col-md-offset-1">
@@ -100,30 +100,29 @@
     
 
     
-     
     <div class="search-text"> 
       <div class="container">
         <div class="row text-center">
          
           <div class="form-inline">
             <h5>Quer adquirir cada vez mais conhecimento?</h5>
-            <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
+            <h4 class="cham">Seja sempre o primeiro a receber as novidades</h4>
             <form action="armazenamento.php" method="POST">
-                 <div class="col-md-4 col-md-offset-3">
-                    <input type="text" class="input-group form-control " placeholder="Nome Completo" id="nome">
+              <form id="search-form" class="form-group form-horizontal  col-lg-12 col-md-12   col-sm-12 col-xs-12 text-center">
+                    <input type="text" class="input-group " placeholder="Nome Completo" id="nome">
                     <div class="input-group">
-                      <input type="email" class="input-group form-control" placeholder="Endereço de email">
+                      <input type="email" class="input-group" placeholder="Endereço de email">
                       <span class="input-group-btn">
                         <button class="btn btn-secondary" type="button">Quero receber!</button>
                       </span>
                     </div>
-                  </div>
               </form>
-              <div id="obrigado"></div>
-            </div>
-          </div>         
-       </div>     
-  </div>
+            </form>
+            <div id="obrigado"></div>
+          </div>
+        </div>         
+      </div>     
+    </div>
 
     <div class="copyright">
         <div class="container">

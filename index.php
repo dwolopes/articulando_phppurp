@@ -81,7 +81,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="index.php">
-                    <img src="img/articulei_logo.png" class="img-responsive" width="60" >
+                    <img src="img/teste.png" class="img-responsive" width="60" >
                 </a>
             </div>
 
@@ -112,10 +112,10 @@
         </div>
         <div class="row">
             <div class="col-md-6" style="margin-top: 100px;">
-                <h3 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 50px;">Conhecer <b>dicas de aprimoramento</b>
+                <h3 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 50px;">"Conhecer <b>dicas de aprimoramento</b>
                 pessoal me trouxe <b>confiança</b> e agora
-                é mais fácil me apresentar publicamente</h3>
-                <p id="p_capa">Biana Kiestn</p>
+                é mais fácil me apresentar publicamente"</h3>
+                <p id="p_capa">Bianca Kiestn</p>
             </div>
             <div class="col-md-6">
             </div>
@@ -124,7 +124,7 @@
     <div class="container-fluid">
         <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; background: rgba(0,0,0,0.5);">
             <h5 style="color: white;">QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
-            <h3 style="color: white;">Cadastre-se e não perca nenhum de nossos conteúdos</h3>
+            <h3 style="color: white;">Seja sempre o primeiro a receber nossas novidades</h3>
             <form action="armazenamento.php" method="POST" >
                 <div class="col-md-3 col-md-offset-3 " >
                     <div class="input-group" style="min-width: 300px">
@@ -135,7 +135,7 @@
                     <div class="input-group" style="min-width:300px">
                         <input type="email" class="form-control" name="email" placeholder="Email" required style="margin-bottom: 5px;">
                         <span class="input-group-btn">
-                            <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;margin-bottom: 5px;">Quero receber</button>
+                            <button class="btn btn-secondary" type="submit" style="color:#7f7f7f; background-color:#FFE000 ;margin-bottom: 5px;"><strong>Quero receber</strong></button>
                         </span>
                     </div>
                 </div>
@@ -292,7 +292,7 @@
                                 <div class="input-group" style="min-width:300px">
                                     <input type="email" class="form-control" name="email_rodape" placeholder="Email" required style="margin-bottom: 5px;">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-secondary" type="submit" style="color:white; font-weight: 300;margin-bottom: 5px; background-color:#61aaa4;">Quero receber</button>
+                                        <button class="btn btn-secondary" type="submit" style="color:white;color: #7f7f7f;margin-bottom: 5px; background-color:#FFE000;"><strong>Quero receber </strong> </button>
                                     </span>
                                 </div>
                             </div>

@@ -103,6 +103,11 @@ box-shadow: 0 0 2px 1px rgba(0,0,0,.35); margin-bottom: 0px;
     border-radius: 6px;
 }
 
+.search-text .btn-secondary {
+    background-color: #FFE000;
+    color: #7f7f7f;
+}
+
 .search-text h4{
     color: #FFF;
     font-weight: 700;
