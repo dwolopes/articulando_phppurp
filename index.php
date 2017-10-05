@@ -170,7 +170,7 @@
                                         
                 <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">
                     <a href="dicas-discurso-envolvente.php">
-                        <img src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" min-width="100%" style=" margin-left:60px" id="post3">
+                        <img src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" width="280" style=" margin-left:60px" id="post3">
                     </a>
                 </div>
 
@@ -194,7 +194,7 @@
                                         
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 center" style="text-align: center;">
                     <a href="marketing-bicho-7cabecas.php">
-                        <img src="https://imageshack.com/i/pmqIMGeAp" class="img-responsive" min-width="100%"  style="margin-left:60px;" id="post2">
+                        <img src="https://imageshack.com/i/pmqIMGeAp" class="img-responsive" width="280"  style="margin-left:60px;" id="post2">
                     </a>
                 </div>
 
@@ -218,7 +218,7 @@
                                         
                 <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">
                     <a href="influenciar-dicas.php">
-                        <img src="https://imageshack.com/i/pmKdXnWOp" class="img-responsive" min-width="100%" style=" margin-left:60px" id="post3">
+                        <img src="https://imageshack.com/i/pmKdXnWOp" class="img-responsive" width="280" style=" margin-left:60px" id="post3">
                     </a>
                 </div>
 
