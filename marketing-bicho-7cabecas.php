@@ -20,7 +20,7 @@
   <script src="js/style.js"></script>
   <script src="js/bootstrap.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="post1.css">
+	<link rel="stylesheet" type="text/css" href="css/post1.css">
 </head>
 <body>
 
@@ -39,7 +39,7 @@
           <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="index.php">HOME</a></li>
               <li><a href="sobre.php">SOBRE</a></li>
-              <li><a href="index.php">CONTATO</a></li>
+              <li><a href="contato.php">CONTATO</a></li>
           </ul>
         </div>
       </div>
