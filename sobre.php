@@ -75,7 +75,6 @@
             <span style="background-color:#00756b;" class="sr-only">Menu</span>
             <span style="background-color:#00756b;" class="icon-bar"></span>
             <span style="background-color:#00756b;" class="icon-bar"></span>
-            <span style="background-color:#00756b;" class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.php"><img style="max-width:50px; margin-top: -25px;" src="img/teste.png"></a>
         </div>
