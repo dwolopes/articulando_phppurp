@@ -103,12 +103,6 @@ span .icon-bar{
     max-width: 100%;
 }
 
-.jumbotron h1 {
-    font-size:50px;
-    color: white;
-    font-family:'Montserrat', sans-serif;
-}
-
 @media (max-width: 768px){
     .jumbotron{
         background-position: 50% 50%;
