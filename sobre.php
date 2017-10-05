@@ -119,7 +119,7 @@
     <div class="container-fluid">
         <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; background: rgba(0,0,0,0.5);">
             <h5 style="color: white; font-size: 17px;">Curtiu saber mais sobre a gente? \o/</h5>
-            <h3 style="color: white;">Deixe seus dados e receba regularmente o nosso material exclusivo</h3>
+            <h3 style="color: white;">Entre para nossa lista e receba um infográfico incrível e conteúdos com exclusividade</h3>
             <form action="armazenamento.php" method="POST" >
                 <div class="col-md-3 col-md-offset-3 " >
                     <div class="input-group" style="min-width: 300px">
