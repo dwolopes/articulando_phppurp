@@ -142,16 +142,16 @@
                 <div class="container">
                     <div class="row" id="super">
                         <div class="col-lg-5  col-md-5 col-sm-5 col-xs-12">
-                            <a href="dicas-discurso-envolvente.php">
-                                <img  src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" max-width="100%">
+                            <a href="tecnicas-teatrais.php">
+                                <img  src="https://imageshack.com/i/podH52X8p" class="img-responsive" max-width="100%">
                             </a>
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                            <a href="dicas-discurso-envolvente.php">
-                                <h2 style="font-family: 'Montserrat', sans-serif;">5 dicas infalíveis para deixar seu discurso cada vez mais envolvente</h2>
+                            <a href="tecnicas-teatrais.php">
+                                <h2 style="font-family: 'Montserrat', sans-serif;">Conheça As 5 Técnicas Teatrais para ajudar Executivos a Falar Em Público</h2>
                             </a>
-                            <h4 style="font-family: 'Montserrat', sans-serif;">Você sabia que um dos maiores medos da Humanidade é falar em público?
-                                Acidentes de trânsito, morte, aranhas e falar em público. Esta é a ordem dos quatro maiores medos[...] 
+                            <h4 style="font-family: 'Montserrat', sans-serif;">Fala constantemente em público no seu trabalho? Tem dificuldades em se expressar nas apresentações?Você sabia que vários executivos estão optando pelo teatro?
+                            Sim, o teatro; Por desenvolver técnicas para solucionar o medo[...] 
                             </h4>
                         </div>
                     </div>
@@ -162,6 +162,30 @@
     </div>    
 
     <!--segunda postagem-->
+    <section class="postagens">
+        <div class="container">
+            <hr>
+            <div class="row" >
+                                        
+                <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">
+                    <a href="dicas-discurso-envolvente.php">
+                        <img src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" width="280" style=" margin-left:60px" id="post3">
+                    </a>
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <a href="dicas-discurso-envolvente.php">
+                        <h3 style="font-family: 'Montserrat', sans-serif;">5 Dicas infalíveis para deixar seu discurso cada vez mais envolvente.</h3>
+                    </a>
+                    <h5>Você sabia que um dos maiores medos da Humanidade é falar em público?
+                        Acidentes de trânsito, morte, aranhas e falar em público. Esta é a ordem dos quatromaiores medos dos jovens, segundo uma recente pesquisa conduzida com cerca de mil[...] 
+                    </h5 style="font-family: 'Montserrat', sans-serif;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--terceira postagem-->
     <section class="postagens">
         <div class="container">
             <hr>
@@ -185,7 +209,7 @@
     </section>
 
 
-    <!--terceira postagem-->
+    <!--Quarta postagem-->
     <section class="postagens">
         <div class="container">
             <hr>
@@ -208,53 +232,7 @@
         </div>
     </section>
 
-    <!--quarta postagem-->
-   <!-- <section class="postagens">
-        <div class="container">
-            <hr>
-            <div class="row" >
-                                        
-                <div class="col-lg-6  col-md-12 col-sm-12 col-xs-12">
-                    <a href="post2/marketing-bicho-7cabecas.php">
-                        <img src="post2/2_lista.png" class="img-responsive" max-width="500">
-                    </a>
-                </div>
-
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <a href="post2/marketing-bicho-7cabecas.php">
-                        <h1>Marketing pessoal, o bicho de 7 cabeças</h1>
-                    </a>
-                    <h4>Marketing pessoal pode parecer um bicho de 7 cabeças para algumas pessoas,  mas estou aqui para provar para você que não é bem assim. Com apenas algumas boas práticas já dá para perceber[...] 
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </section>
--->
-    <!--quinta postagem-->
-   <!-- <section class="postagens">
-        <div class="container">
-            <hr>
-            <div class="row" >
-                                        
-                <div class="col-lg-6  col-md-12 col-sm-12 col-xs-12">
-                    <a href="post2/marketing-bicho-7cabecas.php">
-                        <img src="post2/2_lista.png" class="img-responsive" max-width="500">
-                    </a>
-                </div>
-
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <a href="post2/marketing-bicho-7cabecas.php">
-                        <h1>Marketing pessoal, o bicho de 7 cabeças</h1>
-                    </a>
-                    <h4>Marketing pessoal pode parecer um bicho de 7 cabeças para algumas pessoas,  mas estou aqui para provar para você que não é bem assim. Com apenas algumas boas práticas já dá para perceber[...] 
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </section>
-
--->
+   
 
 
 
