@@ -33,18 +33,18 @@
 
       gtag('config', 'UA-107394088-1');
     </script>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Blog articulando">
     <link rel="icon" type="image/x-icon" href="img/icon.png">
-	<title>Blog Articulei</title>
+    <title>Blog Articulei</title>
 
-	<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-index2.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -66,56 +66,48 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-static-top" style="min-height: 70px;">
-        <div class="container clear">
-            <div class="navbar-header">
+<header>
 
-                <!-- Collapsed Hamburger -->
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <!-- Branding Image -->
-                <a class="navbar-brand" href="index.php">
-                    <img src="img/teste.png" class="img-responsive" width="60" >
-                </a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="menu">
-                <!-- Left Side Of Navbar -->
-                <!-- Right Side Of Navbar -->
-                    <ul class="nav navbar-nav navbar-right" style="margin-right: 100px;">
-                        <ul class="nav navbar-nav" style="margin-top: 20px;">
-    <!--                             <li class="active">
-                                <a href="#"><span>Saiba Mais</span></a>
-                            </li> -->
-                            <li class="active"><a href="#">HOME</a></li>
-                            <li><a href="#">SOBRE</a></li>
-                            <li><a href="#">CONTATO</a></li>
-                        </ul>
-                    </ul>
-            </div>
+<nav class="navbar navbar-default">
+      <div class="container clear">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php"><img style="max-width:50px; margin-top: -25px;" src="img/teste.png"></a>
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.php">HOME</a></li>
+              <li><a href="sobre.php">SOBRE</a></li>
+              <li><a href="index.php">CONTATO</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
+    
+</header>
 
-
-<header class="masthead" style="background-image: url('https://imagizer.imageshack.us/v2/1366x581q90/922/BrxA9L.png")>
-<div class="container clear">
+<div class="jumbotron">
     <div class="container">
-        <div class="row citacao">
-            <div class="col-md-6 col-sm-12 col col-xs-12" style="margin-top: 100px;">
-                <h1 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 50px;">"Conhecer <b>dicas de aprimoramento</b>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-push-6">
+                <img src="img/efeito-marca2.png" class="img-responsive">
+                
+            </div>
+            <div class=" somos col-lg-6 colg-md-6  col-sm-pull-6">
+                <h1>"Conhecer <b>dicas de aprimoramento</b>
                 pessoal me trouxe <b>confiança</b> e agora
                 é mais fácil me apresentar publicamente"</h1>
-                <p id="p_capa">Bianca Kiestn</p>
+                <p>Bianca Kiestn</p>
             </div>
-            <div class="col-md-6">
-            </div>
+
         </div>
     </div>
+
     <div class="container-fluid">
         <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; background: rgba(0,0,0,0.5);">
             <h5 style="color: white;">QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
@@ -130,7 +122,7 @@
                     <div class="input-group" style="min-width:300px">
                         <input type="email" class="form-control" name="email" placeholder="Email" required style="margin-bottom: 5px;">
                         <span class="input-group-btn">
-                            <button class="btn btn-secondary" type="submit" style="color:#7f7f7f; background-color:#FFE000 ;margin-bottom: 5px;"><strong>Quero receber</strong></button>
+                            <button class="btn btn-secondary" type="submit" style="color:#7F7F7F; background-color:#FFE000;margin-bottom: 5px;"><strong>Quero receber</strong></button>
                         </span>
                     </div>
                 </div>
@@ -139,8 +131,8 @@
     </div>
     <img id="divCorpo" class="img-responsive" width="20">
     <div id="obrigado"></div>
-      </div>
-    </header>
+</div>
+
     <!--Corpo do Blog-->
     <!--Postagem Destaque-->
     <div class="container">
@@ -150,16 +142,16 @@
                 <div class="container">
                     <div class="row" id="super">
                         <div class="col-lg-5  col-md-5 col-sm-5 col-xs-12">
-                            <a href="dicas-discurso-envolvente.php">
-                                <img  src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" max-width="100%">
+                            <a href="tecnicas-teatrais.php">
+                                <img  src="https://imageshack.com/i/podH52X8p" class="img-responsive" max-width="100%">
                             </a>
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                            <a href="dicas-discurso-envolvente.php">
-                                <h2 style="font-family: 'Montserrat', sans-serif;">5 dicas infalíveis para deixar seu discurso cada vez mais envolvente</h2>
+                            <a href="tecnicas-teatrais.php">
+                                <h2 style="font-family: 'Montserrat', sans-serif;">Conheça As 5 Técnicas Teatrais para ajudar Executivos a Falar Em Público</h2>
                             </a>
-                            <h4 style="font-family: 'Montserrat', sans-serif;">Você sabia que um dos maiores medos da Humanidade é falar em público?
-                                Acidentes de trânsito, morte, aranhas e falar em público. Esta é a ordem dos quatro maiores medos[...] 
+                            <h4 style="font-family: 'Montserrat', sans-serif;">Fala constantemente em público no seu trabalho? Tem dificuldades em se expressar nas apresentações?Você sabia que vários executivos estão optando pelo teatro?
+                            Sim, o teatro; Por desenvolver técnicas para solucionar o medo[...] 
                             </h4>
                         </div>
                     </div>
@@ -170,6 +162,30 @@
     </div>    
 
     <!--segunda postagem-->
+    <section class="postagens">
+        <div class="container">
+            <hr>
+            <div class="row" >
+                                        
+                <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">
+                    <a href="dicas-discurso-envolvente.php">
+                        <img src="https://imageshack.com/i/pnPlEfg3p" class="img-responsive" width="280" style=" margin-left:60px" id="post3">
+                    </a>
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <a href="dicas-discurso-envolvente.php">
+                        <h3 style="font-family: 'Montserrat', sans-serif;">5 Dicas infalíveis para deixar seu discurso cada vez mais envolvente.</h3>
+                    </a>
+                    <h5>Você sabia que um dos maiores medos da Humanidade é falar em público?
+                        Acidentes de trânsito, morte, aranhas e falar em público. Esta é a ordem dos quatromaiores medos dos jovens, segundo uma recente pesquisa conduzida com cerca de mil[...] 
+                    </h5 style="font-family: 'Montserrat', sans-serif;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--terceira postagem-->
     <section class="postagens">
         <div class="container">
             <hr>
@@ -193,7 +209,7 @@
     </section>
 
 
-    <!--terceira postagem-->
+    <!--Quarta postagem-->
     <section class="postagens">
         <div class="container">
             <hr>
@@ -216,53 +232,7 @@
         </div>
     </section>
 
-    <!--quarta postagem-->
-   <!-- <section class="postagens">
-        <div class="container">
-            <hr>
-            <div class="row" >
-                                        
-                <div class="col-lg-6  col-md-12 col-sm-12 col-xs-12">
-                    <a href="post2/marketing-bicho-7cabecas.php">
-                        <img src="post2/2_lista.png" class="img-responsive" max-width="500">
-                    </a>
-                </div>
-
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <a href="post2/marketing-bicho-7cabecas.php">
-                        <h1>Marketing pessoal, o bicho de 7 cabeças</h1>
-                    </a>
-                    <h4>Marketing pessoal pode parecer um bicho de 7 cabeças para algumas pessoas,  mas estou aqui para provar para você que não é bem assim. Com apenas algumas boas práticas já dá para perceber[...] 
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </section>
--->
-    <!--quinta postagem-->
-   <!-- <section class="postagens">
-        <div class="container">
-            <hr>
-            <div class="row" >
-                                        
-                <div class="col-lg-6  col-md-12 col-sm-12 col-xs-12">
-                    <a href="post2/marketing-bicho-7cabecas.php">
-                        <img src="post2/2_lista.png" class="img-responsive" max-width="500">
-                    </a>
-                </div>
-
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <a href="post2/marketing-bicho-7cabecas.php">
-                        <h1>Marketing pessoal, o bicho de 7 cabeças</h1>
-                    </a>
-                    <h4>Marketing pessoal pode parecer um bicho de 7 cabeças para algumas pessoas,  mas estou aqui para provar para você que não é bem assim. Com apenas algumas boas práticas já dá para perceber[...] 
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </section>
-
--->
+   
 
 
 
@@ -276,7 +246,7 @@
                     <div id="obrigado_rodape"></div>
                     <div class="form-inline">
                         <h5>Quer adquirir cada vez mais conhecimento?</h5>
-                        <h4 class="cham">Cadastre-se e seja sempre o primeiro a receber as novidades</h4>
+                        <h4 class="cham">Seja sempre o primeiro a receber nossas novidades</h4>
                         <form action="armazenamento.php" method="POST" id="form_rodape">
                             <div class="col-md-3 col-md-offset-3 " >
                                 <div class="input-group" style="min-width: 200px">
@@ -287,7 +257,7 @@
                                 <div class="input-group" style="min-width:300px">
                                     <input type="email" class="form-control" name="email_rodape" placeholder="Email" required style="margin-bottom: 5px;">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-secondary" type="submit" style="color:white;color: #7f7f7f;margin-bottom: 5px; background-color:#FFE000;"><strong>Quero receber </strong> </button>
+                                        <button class="btn btn-secondary" type="submit" style="margin-bottom: 5px;color:#7F7F7F; background-color:#FFE000;"><strong>Quero receber </strong> </button>
                                     </span>
                                 </div>
                             </div>
