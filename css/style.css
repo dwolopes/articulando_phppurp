@@ -99,6 +99,11 @@ box-shadow: 0 0 2px 1px rgba(0,0,0,.35); margin-bottom: 0px; font-size: 20px;
     max-width: 100%;
 }
 
+.jumbotron h1 {
+    font-size:50px;
+    color: white;
+}
+
 @media (max-width: 768px){
     .jumbotron{
         background-position: 50% 50%;
