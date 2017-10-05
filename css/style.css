@@ -86,6 +86,10 @@ box-shadow: 0 0 2px 1px rgba(0,0,0,.35); margin-bottom: 0px; font-size: 20px;
 .navbar-default .navbar-brand:focus {
   color: grey;
 }
+
+span .icon-bar{
+    background-color:#00756b;
+}
 /*Banner Principal*/
 
 
@@ -102,10 +106,15 @@ box-shadow: 0 0 2px 1px rgba(0,0,0,.35); margin-bottom: 0px; font-size: 20px;
 .jumbotron h1 {
     font-size:50px;
     color: white;
+    font-family:'Montserrat', sans-serif;
 }
 
 @media (max-width: 768px){
     .jumbotron{
+        background-position: 50% 50%;
+    }
+
+    .contato{
         background-position: 50% 50%;
     }
 
@@ -291,4 +300,75 @@ div#super.row{
   color: #00AA9C;
 }
 
+
+/*Contato*/
+
+#text_contato{
+    font-size:21px;
+    color: white;
+    line-height: 30px;
+    font-family: 'Montserrat'
+    
+}
+
+
+.contato{
+    background-image: url('http://imageshack.com/a/img923/4122/gTtC9X.png');
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%;
+    /*-webkit-background-size: 100% 100%;*/
+    background-size: cover;
+    max-width: 100%;
+
+}
+
+
+.rodape_contato{
+    text-align: center;
+    margin-top:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 20px;
+}
+
+.rodape-contato h4 {
+    font-stretch: expanded;
+}
+
+.rodape-contato .input-search{
+    height:45px;
+    padding-left:20px;
+    color:#333;
+    margin-left: 15px;
+    border-radius: 6px 0 0 6px;
+    width: 400px;
+
+
+} 
+
+.rodape-contato .input-group { 
+    border-radius: 6px 0 0 6px;
+    text-align: center;
+
+}
+.rodape-contato .btn-search{
+    text-align: center;
+    background: #00AA9C;
+    font-family:Roboto;
+    border:none;
+    color:#FFF;
+    height: 45px;
+    width: 80px;
+    border-radius: 6px;
+}
+
+.rodape-contato h4{
+    color: #FFF;
+    font-weight: 700;
+}
+
+.rodape-contato h5{
+    color: #FFF;
+    font-weight: 500;
+}
 

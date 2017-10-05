@@ -72,10 +72,10 @@
       <div class="container clear">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Menu</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span style="background-color:#00756b;" class="sr-only">Menu</span>
+            <span style="background-color:#00756b;" class="icon-bar"></span>
+            <span style="background-color:#00756b;" class="icon-bar"></span>
+            <span style="background-color:#00756b;" class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.php"><img style="max-width:50px; margin-top: -25px;" src="img/teste.png"></a>
         </div>
@@ -83,7 +83,7 @@
           <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="index.php">HOME</a></li>
               <li><a href="sobre.php">SOBRE</a></li>
-              <li><a href="index.php">CONTATO</a></li>
+              <li><a href="contato.php">CONTATO</a></li>
           </ul>
         </div>
       </div>
@@ -107,10 +107,11 @@
 
         </div>
     </div>
+
     <div class="container-fluid">
         <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; background: rgba(0,0,0,0.5);">
             <h5 style="color: white;">QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>
-            <h3 style="color: white;">Seja sempre o primeiro a receber nossas novidades</h3>
+            <h3 style="color: white;">Entre para nossa lista e receba um infográfico incrível e conteúdos com exclusividade</h3>
             <form action="armazenamento.php" method="POST" >
                 <div class="col-md-3 col-md-offset-3 " >
                     <div class="input-group" style="min-width: 300px">
@@ -245,7 +246,7 @@
                     <div id="obrigado_rodape"></div>
                     <div class="form-inline">
                         <h5>Quer adquirir cada vez mais conhecimento?</h5>
-                        <h4 class="cham">Seja sempre o primeiro a receber nossas novidades</h4>
+                        <h4 class="cham">Entre para nossa lista e receba um infográfico incrível e conteúdos com exclusividade</h4>
                         <form action="armazenamento.php" method="POST" id="form_rodape">
                             <div class="col-md-3 col-md-offset-3 " >
                                 <div class="input-group" style="min-width: 200px">
