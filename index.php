@@ -83,7 +83,7 @@
           <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="index.php">HOME</a></li>
               <li><a href="sobre.php">SOBRE</a></li>
-              <li><a href="index.php">CONTATO</a></li>
+              <li><a href="contato.php">CONTATO</a></li>
           </ul>
         </div>
       </div>
