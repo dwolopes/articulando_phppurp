@@ -15,7 +15,11 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->  
   <link href="fonts/Bariol.ttf" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="post1.css">
+
+<!-- Custom CSS-->
+	<link rel="stylesheet" type="text/css" href="css/post1.css">
+
+
   <link rel="icon" type="image/x-icon" href="img/icon.png">
   <script src="js/style.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -38,7 +42,7 @@
           <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="index.php">HOME</a></li>
               <li><a href="sobre.php">SOBRE</a></li>
-              <li><a href="index.php">CONTATO</a></li>
+              <li><a href="contato.php">CONTATO</a></li>
           </ul>
         </div>
       </div>
