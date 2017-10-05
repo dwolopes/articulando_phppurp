@@ -109,13 +109,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
     <div class="container-fluid">
         <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; background: rgba(0,0,0,0.5);">
             <h5 style="color: white; font-size: 17px;">Curtiu saber mais sobre a gente? \o/</h5>
