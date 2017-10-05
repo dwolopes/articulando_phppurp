@@ -94,20 +94,21 @@
 <div class="jumbotron">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-push-6">
-                <img src="img/efeito-marca2.png" class="img-responsive">
-                
+            <div class="col-md-6 col-md-offset-6">
+                <img src="img/efeito-marca.png" class="img-responsive" width="500">
             </div>
-            <div class=" somos col-lg-6 colg-md-6  col-sm-pull-6">
-                <h1>"Conhecer <b>dicas de aprimoramento</b>
+        </div>
+        <div class="row">
+            <div class="col-md-6" style="margin-top: 100px;">
+                <h3 style="font-family:'Montserrat', sans-serif; color: white; margin-left: 50px;">"Conhecer <b>dicas de aprimoramento</b>
                 pessoal me trouxe <b>confiança</b> e agora
-                é mais fácil me apresentar publicamente"</h1>
-                <p>Bianca Kiestn</p>
+                é mais fácil me apresentar publicamente"</h3>
+                <p id="p_capa">Bianca Kiestn</p>
             </div>
-
+            <div class="col-md-6">
+            </div>
         </div>
     </div>
-
     <div class="container-fluid">
         <div class="row" style="margin-top: 15px;text-align: center; background-color: black; min-height:130px; background: rgba(0,0,0,0.5);">
             <h5 style="color: white;">QUER ADQUIRIR CADA VEZ MAIS CONHECIMENTO?</h5>

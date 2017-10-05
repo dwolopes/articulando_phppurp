@@ -98,15 +98,9 @@ span .icon-bar{
     background-image: url('../img/articulando_banner.png');
     background-repeat: no-repeat;
     -moz-background-size: 100% 100%;
-    /*-webkit-background-size: 100% 100%;*/
+    -webkit-background-size: 100% 100%;
     background-size: cover;
     max-width: 100%;
-}
-
-.jumbotron h1 {
-    font-size:50px;
-    color: white;
-    font-family:'Montserrat', sans-serif;
 }
 
 @media (max-width: 768px){
