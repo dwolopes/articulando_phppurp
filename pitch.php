@@ -107,7 +107,7 @@
             <p>Não faça promessas que seu produto ou serviço não vá cumprir, não engane seus clientes. Sempre deixe muito claro quais suas intenções</p>
 
 
-            h4> <strong>Credibilidade</strong></h4>
+            <h4> <strong>Credibilidade</strong></h4>
 
 
             <p>Passe sempre credibilidade aos seus clientes, só assim suas vendas vão sempre estar aumentando. </p>
