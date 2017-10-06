@@ -143,16 +143,15 @@
                 <div class="container">
                     <div class="row" id="super">
                         <div class="col-lg-5  col-md-5 col-sm-5 col-xs-12">
-                            <a href="tecnicas-teatrais.php">
-                                <img  src="https://imageshack.com/i/podH52X8p" class="img-responsive" max-width="100%">
+                            <a href="dar-bem-tcc.php">
+                                <img  src="http://imageshack.com/a/img924/6673/F7c89C.png" class="img-responsive" max-width="100%">
                             </a>
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                            <a href="tecnicas-teatrais.php">
-                                <h2 style="font-family: 'Montserrat', sans-serif;">Conheça As 5 Técnicas Teatrais para ajudar Executivos a Falar Em Público</h2>
+                            <a href="dar-bem-tcc.php">
+                                <h2 style="font-family: 'Montserrat', sans-serif;">Tudo que você sempre quis saber para se dar bem no TCC</h2>
                             </a>
-                            <h4 style="font-family: 'Montserrat', sans-serif;">Fala constantemente em público no seu trabalho? Tem dificuldades em se expressar nas apresentações?Você sabia que vários executivos estão optando pelo teatro?
-                            Sim, o teatro; Por desenvolver técnicas para solucionar o medo[...] 
+                            <h4 style="font-family: 'Montserrat', sans-serif;">Ao final de sua trajetória universitária, antes de conquistar um diploma, o estudante tem um ultimo desafio. O TCC que é visto por muitos como um pesadelo, onde na verdade deveria ser considerada a oportunidade para o estudante realizar um trabalho memorável. Para ajudá-lo a fazer um projeto nota dez, nós[...] 
                             </h4>
                         </div>
                     </div>
@@ -161,6 +160,32 @@
         </div>
     </div>
     </div>    
+
+
+        <!--segunda postagem-->
+    <section class="postagens">
+        <div class="container">
+            <hr>
+            <div class="row" >
+                                        
+                <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">
+                    <a href="tecnicas-teatrais.php">
+                        <img src="https://imageshack.com/i/podH52X8p" class="img-responsive" width="280" style=" margin-left:60px" id="post3">
+                    </a>
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <a href="dicas-discurso-envolvente.php">
+                        <h3 style="font-family: 'Montserrat', sans-serif;">Conheça As 5 Técnicas Teatrais para ajudar Executivos a Falar Em Público.</h3>
+                    </a>
+                        <h5>Fala constantemente em público no seu trabalho? Tem dificuldades em se expressar nas apresentações?Você sabia que vários executivos estão optando pelo teatro?
+                            Sim, o teatro; Por desenvolver técnicas para solucionar o medo[...] 
+                    </h5 style="font-family: 'Montserrat', sans-serif;">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!--segunda postagem-->
     <section class="postagens">
