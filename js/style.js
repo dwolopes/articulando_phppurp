@@ -31,7 +31,7 @@ $(document).ready(function() {
                 //console.log(data);
 
                 if(data.success == true){
-                    $("#obrigado").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/><br><a href='img/infografico.png' target='_black' class='btn btn-sucess' style='color:7F7F7F; background-color:#FFE000;margin-bottom: 5px; font-weight: 500; '>Acessar Infográfico<a/></center>");
+                    $("#obrigado").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/><br><a href='img/infografico.png' target='_black' class='btn btn-sucess' style='color:7F7F7F; background-color:#FFE000;margin-bottom: 5px; font-weight: 500; '>Acessar Infográfico<a/><a href='apresentacoes.rar' target='_black' class='btn btn-sucess' style='color:white; background-color:#00847a;margin-bottom: 5px; font-weight: 500; margin-left: 10px;'>Download apresentações<a/></center>");
 
                 } 
 
@@ -71,7 +71,7 @@ $(document).ready(function() {
                 //console.log(data);
 
                 if(data.success == true){
-                    $("#obrigado_rodape").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/><br><a href='img/infografico.png' target='_black' class='btn btn-sucess' style='color:7F7F7F; background-color:#FFE000;margin-bottom: 5px; font-weight: 500; '>Acessar Infográfico<a/></center>");
+                    $("#obrigado_rodape").html("<br><center><img id='img' class='img-responsive' width='400' src='img/PopAgradecimento.png'/><br><a href='img/infografico.png' target='_black' class='btn btn-sucess' style='color:7F7F7F; background-color:#FFE000;margin-bottom: 5px; font-weight: 500; '>Acessar Infográfico<a/><a href='apresentacoes.rar' target='_black' class='btn btn-sucess' style='color:white; background-color:#00847a;margin-bottom: 5px; font-weight: 500; margin-left: 10px;'>Download apresentações<a/></center>");
 
                 } 
 
