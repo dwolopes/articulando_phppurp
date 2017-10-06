@@ -162,6 +162,31 @@
     </div>    
 
 
+        <section class="postagens">
+        <div class="container">
+            <hr>
+            <div class="row" >
+                                        
+                <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">
+                    <a href="filmes.php">
+                        <img src="https://images.pexels.com/photos/122434/popcorn-cinema-ticket-film-122434.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive" width="280" style=" margin-left:60px" id="post3">
+                    </a>
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <a href="filmes.php">
+                        <h3 style="font-family: 'Montserrat', sans-serif;">4 filmes para inspirar apresentações e discursos</h3>
+                    </a>
+                        <h5>Tem dificuldades em falar em público? Se sente inseguro diante de uma plateia? Gosta de filmes? Já pensou em aprender e se inspirar e uma sessão regada de pipoca?
+                        Nada melhor do que aprender se divertindo vendo um filme[...] 
+                    </h5 style="font-family: 'Montserrat', sans-serif;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
         <!--segunda postagem-->
     <section class="postagens">
         <div class="container">
@@ -175,7 +200,7 @@
                 </div>
 
                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                    <a href="dicas-discurso-envolvente.php">
+                    <a href="tecnicas-teatrais.php">
                         <h3 style="font-family: 'Montserrat', sans-serif;">Conheça As 5 Técnicas Teatrais para ajudar Executivos a Falar Em Público.</h3>
                     </a>
                         <h5>Fala constantemente em público no seu trabalho? Tem dificuldades em se expressar nas apresentações?Você sabia que vários executivos estão optando pelo teatro?
@@ -252,6 +277,29 @@
                         <h3 style="font-family: 'Montserrat', sans-serif;">Quer influenciar pessoas? Então essas dicas são pra você.</h3>
                     </a>
                     <h5>Para que as pessoas gostem mais de você, um conjunto de princípios essenciais deve ser seguido. São dicas simples que, quando aplicadas, fazem com que você seja mais admirado[...] 
+                    </h5 style="font-family: 'Montserrat', sans-serif;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="postagens">
+        <div class="container">
+            <hr>
+            <div class="row" >
+                                        
+                <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">
+                    <a href="pitch.php">
+                        <img src="https://images.pexels.com/photos/64057/pexels-photo-64057.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive" width="280" style=" margin-left:60px" id="post3">
+                    </a>
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <a href="pitch.php">
+                        <h3 style="font-family: 'Montserrat', sans-serif;">Dicas de como fazer pitch de vendas com excelência</h3>
+                    </a>
+                        <h5>Nada adianta se você possuir uma empresa com boa infraestrutura, oferecer serviços ou produtos de qualidade, possuir um bom atendimento, profissionais treinados se não conter em todo esse pacote o fator mais importante para que as vendas[...] 
                     </h5 style="font-family: 'Montserrat', sans-serif;">
                 </div>
             </div>
