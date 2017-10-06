@@ -67,10 +67,11 @@ $data           = array();      // array to pass back data
         $email = $_POST['email'];
         //$ip = $_SERVER['REMOTE_ADDR'];
         $ip = get_client_ip();
+        $tipo = "B2C";
         $dataLocal = date('Y-m-d H:i:s', time());
 
         // show a message of success and provide a true success variable
-        $sql = "INSERT INTO leads (nome, email, ip_inscricao, data_inscricao) VALUES ('$nome', '$email', '$ip','$dataLocal')";
+        $sql = "INSERT INTO leads (email, nome, ip_inscricao, tipo ,data_hora) VALUES ('$email', '$nome', '$ip','$tipo','$dataLocal')";
         // $data['success'] = true;
         // $data['message'] = 'Success!';
         if ($conn->query($sql) === TRUE) {
